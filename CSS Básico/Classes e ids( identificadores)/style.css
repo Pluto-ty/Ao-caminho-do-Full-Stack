@@ -1,0 +1,19 @@
+/* # para referenciar um id */ /* Um id é para identificar um elemento específico na pagina*/
+/* . para referenciar uma class */ /* Enquanto a class é para identificar mais de um elemento na página,
+ e cria uma classe de elemtnos, vários elementos que compartilham alguma coisa como estilo. */
+
+#p-principal {
+  color: blue;
+}
+
+#Title {
+  color: brown;
+}
+
+.texto_azul {
+  color: cyan;
+}
+
+.texto_verde {
+  color: green;
+}

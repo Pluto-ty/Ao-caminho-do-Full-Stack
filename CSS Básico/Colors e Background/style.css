@@ -1,0 +1,39 @@
+body {
+  background-image: url(/img/beru-sama.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; /* cobre toda a região do elemento*/
+  /*background-position: center;*/ /* Fica no centro do elemento, entre outras posições escolhidas*/
+  background-attachment: fixed; /*Fixed - Ele n move junto com a pagina no scrool e faz um efeito legal*/
+  /*Local - Ele move junto com o scroll e fica parado normal.*/
+
+  /*Também teria como deixar tudo em uma linha só mas no caso tem uma ordem de como colocar e é mais complicado de organizar */
+  /*
+  background: center no-repeat fixed; 
+  */
+}
+
+#p-principal {
+  color: blue;
+}
+
+#Title {
+  color: #55a0f0; /*Cor em forma hexadecimal */
+  background-color: #34bdcf;
+}
+
+.texto_azul {
+  color: rgb(
+    200,
+    150,
+    250
+  ); /*Cor em RGB 3 numeros de 0 a 255 para r=red, g=gree, b=blue*/
+}
+
+.texto_verde {
+  color: rgba(
+    200,
+    150,
+    250,
+    1
+  ); /*RGBA mesma coisa mas com a=opacidade que vai de 0 totalmente transparente para 1 totalmente opaco */
+}

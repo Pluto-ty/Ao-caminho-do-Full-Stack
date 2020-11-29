@@ -1,0 +1,49 @@
+.containers {
+  font-size: 25px;
+  background: red;
+  width: 150px;
+}
+
+.inside {
+  font-size: 2em;
+  background: blue;
+  width: 1em;
+  /* Em- Essa unidade muda para os elementos filhos de acordo com o tamanho da fonte/ multiplica baseado no tamanho(font-size) do elemento pai( inside dentro da class container)*/
+}
+
+.raiz {
+  font-size: 2rem;
+  /* Ao contrário do em que se liga ao font-size do elemento pai. rem se liga ao font-size do elemento raiz, no caso do html em si.*/
+}
+
+.container-2 {
+  width: 50vw; /*Baseia em tempo real no view width do navegador. Vai de 1-1% e 100-100%. */
+  background: red;
+}
+
+.inside-2 {
+  width: 20vh; /*Mesmo que o vw mas se baseia no view height*/
+  background: blue;
+}
+
+.container-3 {
+  width: 50vmin; /*Baseia em tempo real no menor valor (width/height). Vai de 1-1% e 100-100%. */
+  background: red;
+}
+
+.inside-3 {
+  width: 20vmax; /*Mesmo que o vmin mas se baseia no maior valor(width/height)*/
+  background: blue;
+}
+
+.container-4 {
+  width: 300px;
+  height: 300px;
+  background: red;
+}
+
+.inside-4 {
+  width: 80%; /*A % ela se baseia na % do elemento pai. No caso o container-4, pegando 80% do seu width*/
+  height: 80%;
+  background: blue;
+}

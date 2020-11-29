@@ -1,0 +1,24 @@
+body {
+  background-image: url(./img/beru-sama.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#div-principal {
+  /*Div são muito utilizadas com css para formatação/organização de estilo dos elementos mas n tem semântica usando div.*/
+  background-image: url(https://d17lbu6bbzbdc8.cloudfront.net/wp-content/uploads/2020/06/10213859/solo-leveling.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.div-secundária {
+  background-image: url(/img/beru-sama.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#Title {
+  color: #55a0f0;
+  background-color: #34bdcf;
+}
