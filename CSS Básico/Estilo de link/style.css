@@ -1,0 +1,29 @@
+.links:link {
+  /*.link é para especificar que os links não visitados vão ser modificados do modo abaixo.*/
+  text-decoration: none;
+  color: #bc2035;
+  cursor: crosshair;
+  /* background: #bc2035; */
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: 2px solid #bc2035;
+}
+
+/*:visited funciona em links ja visitados/clicados.*/
+.links:visited {
+  color: rgb(255, 0, 221);
+}
+
+/*Hover: Ativa quando passa o mouse por cima do elemento*/
+/* .links:hover { 
+  background: blue;
+  color: white;
+} */
+
+.links:active {
+  /*Ativa quando clicar em cima do elemento.*/
+  background: blue;
+  color: white;
+}

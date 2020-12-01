@@ -1,0 +1,7 @@
+p {
+  font-family: programadorbr, Times, "Comic Sans MS", sans-serif; /* 3 opções de fontes se a primeira n existir ou n funcionar usa-se a segunda e se por um acaso também não funcionar ai tem uma fonte genérica sem serifa como emergência*/
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold; /*Modo de deixar a fonte em negrito. Há opção de 100 a 900 para nível de negrito*/
+  font-variant: small-caps; /*um tipo de supercase porém as letras que ja estavam maiúsculas ficam destacadas um pouco maiores que as outras maiúsculas */
+}

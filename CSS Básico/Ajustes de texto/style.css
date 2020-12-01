@@ -1,0 +1,15 @@
+.p {
+  color: blue;
+  text-align: justify;
+  text-transform: capitalize;
+  text-indent: 35px; /*Indentação/Margem do começo de um parágrafo*/
+  text-decoration: underline line-through;
+  letter-spacing: 1.2px; /*Espaçamento entre as letras. Pode se colocar números negativos*/
+  line-height: 2; /*Altura do espaçamento entre as linhas podendo colocar em px ou em números normais que vão multiplicar a altura padrão. Ou em % da altura base*/
+  word-spacing: 2px; /*Aumenta o espaçamento entre as palavras.*/
+  text-shadow: 1px 1px 1px #bbb; /*Colocar sombra nas letras. 1 valor- deslocamento pra direita, 2- pra baixo, 3-desfoque,4-cor*/
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,33 @@
+.borda {
+  /* border-width: 5px; */
+  /* border: 5px solid blue; */ /*Jeito simples de criar uma borda. 1-tamanho, 2- estilo, 3-cor*/
+  /*border-top-color: #219bb9;*/ /*top, right,left,bottom. All = border-color*/
+  border-radius: 5px;
+  border-style: solid;
+  border-color: red green blue yellow;
+  /*Colocando até 4 cores ele coloca automaticamente elas em ordem. 1- top, 2- right, 3-bottom, 4- left*/
+  border-width: 20px 10px 5px 15px; /*Parecido com o de cima. 1 valor - top, 2- right, 3- bottom, 4- left*/
+}
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 219, 121);
+  border-radius: 50%;
+}
+
+.dotted {
+  border-style: dotted;
+}
+.dashed {
+  border-style: dashed;
+}
+.solid {
+  border-style: solid;
+}
+.none {
+  border-style: none;
+} /*Vai ser como o elemento nunca estivesse entrado na tela */
+.hidden {
+  border-style: hidden;
+} /*Como se o elemento estivesse na tela mas n estar aparecendo*/

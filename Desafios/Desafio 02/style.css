@@ -1,0 +1,40 @@
+div {
+  background-image: url(./Imagens/backgorund.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+h2 {
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #58e;
+}
+a:visited {
+  color: rgb(174, 0, 255);
+}
+a:hover {
+  color: rgb(255, 247, 255);
+  text-shadow: 1px 1px rgb(255, 121, 235);
+}
+
+#insta {
+  list-style-image: url(./Imagens/instagram.png);
+  list-style-position: inside;
+}
+
+#linkedin {
+  list-style-image: url(./Imagens/linkedin.png);
+  font-size: 20px;
+  list-style-position: inside;
+}
+
+#github {
+  list-style-image: url(./Imagens/github.png);
+  font-size: 20px;
+  list-style-position: inside;
+}

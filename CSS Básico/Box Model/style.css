@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  background-color: red;
+  padding: 5px;
+  border: 5px solid blue;
+  margin: 5px;
+}
+
+.content {
+  background-color: #ddd;
+  border: 5px solid green;
+  outline: 5px solid green; /*outline cria uma borda mas que em fez de afastar os elementos em volta ela sobrepõem os elementos */
+  margin: 5px;
+  padding: 5px;
+}
+
+/*Comparando border com outline e usando box-sizing*/
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 10px solid blue;
+  padding: 10px;
+}
+.square2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 10px solid blue;
+  padding: 10px;
+
+  box-sizing: border-box; /*Arruma tudo para ficar dentro dos 100 do width e height*/
+  /*As propriedades de largura (width) e de altura (height) incluem o tamanho padding
+   size e a propriedade border, mas não incluem a propriedade margin.*/
+}
+.square3 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  outline: 10px solid blue;
+}
+
+/*Comparando tudo na prática com exemplos*/
