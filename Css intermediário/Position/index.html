@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      body {
+        font-size: 1.2em;
+      }
+
+      .bg-blue {
+        background-color: blue;
+      }
+      .bg-red {
+        background-color: red;
+      }
+      .bg-green {
+        background-color: green;
+      }
+
+      .quadrado {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+      }
+
+      .ret {
+        width: 200px;
+        height: 500px;
+        margin-top: 10px;
+        overflow: auto;
+      }
+      .static {
+        position: static; /*Position padrão*/
+        left: 20px;
+      }
+
+      .relative {
+        position: relative; /*relative permite que use outras propriedades como top,bottom, left e right para mudar sua posição*/
+        /*Ele se desloca baseado onde estaria no static. Se coloca left40px ele vai empurrar para direita pq você
+        aumentou em 40px a posição do left baseado onde estaria se fosse static*/
+      }
+      .fixed {
+        position: fixed;
+        /*o fixed ele se baseia na janela do navegador/viewport,
+        right 20px ele vai para o lado direito do mapa e vai ficar 20px de distância
+        o mesmo pro bottom. Assim que são feitos algumas propagandas que ficam fixas no canto da tela.*/
+        bottom: 20px;
+        right: 20px;
+      }
+
+      .absolute {
+        position: absolute;
+        top: 40px;
+        left: 0; /*A diferença do absolute para o relative que o absolute se baseia no pai dele
+        se não houver um pai, vai o body. O right e etc o relative ele se baseia na posição atual dele para se mover, 
+        o absolute vai se mover para posição d pai e ai aplicar a distância do right e etc.
+        E o pai não pode ser static e sim relative se todos os pai forem static ele se baseia no body*/
+      }
+
+      .sticky {
+        position: sticky;
+        bottom: 0;
+        top: 0;
+        /*Basicamente faz com que o elemento n possa sair da tela quando rolar dependendo de qual direção escolheu top,bottom,left,right ficando preso no final da direção de escolha*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="static quadrado bg-blue"></div>
+
+    <div class="ret relative bg-blue">
+      <div class="static quadrado bg-red"></div>
+      <div class="absolute quadrado bg-green"></div>
+    </div>
+    <div class="fixed quadrado bg-red"></div>
+
+    <div class="bg-blue ret">
+      <div class="quadrado bg-red"></div>
+
+      <div class="quadrado bg-red"></div>
+      <div class="quadrado bg-green sticky"></div>
+      <div class="quadrado bg-red"></div>
+      <div class="quadrado bg-red"></div>
+      <div class="quadrado bg-red"></div>
+      <div class="quadrado bg-green sticky"></div>
+      <div class="quadrado bg-red"></div>
+    </div>
+  </body>
+</html>

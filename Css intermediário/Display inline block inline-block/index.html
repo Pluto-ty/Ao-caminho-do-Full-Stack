@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style type="text/css">
+      body {
+        font-size: 1.2rem;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!--Mostrando como funciona o display block/ inline/ inline-block que á são fixos nos elementos-->
+    <!--Maior diferença entre block e inline é que o block pode ser modificado o heigh, width entre outros.
+    Enquanto o inline não, mas utilizando o inline-block no elemento faz com que o inline perca essa limitação.-->
+    <!--as <div> e <p> são display block, <span> é inline-->
+    <!--Não se deve colocar <div> dentro de <p> ou <p> dentro de <p> para n dar conflito com o display block-->
+    <!--Basicamente aqui tem demonstrações de como ficam quando se coloca uma div dentro de uma tag ou como mudar o display 
+      como mudamos no span para inline-block e conseguimos modificar o width que quando era inline não era possível e também como
+      utilizar visibility em imagens que o item pode ficar hidden e ele ficara invisível mas ainda ocupara o espaço que ele estava
+      ou display- none que faz o conteúdo desaparecer por completo sem nem ficar ocupando em invisível o espaço de antes -->
+    <div style="background-color:blue">
+      <div>Está é uma DIV normal</div>
+      <div>E aqui a história<div style="background-color:red; width: 500px;"> de dentro</div>
+        continua</div>
+    </div>
+
+    <div>
+      <p style="margin-bottom: 0"> Este é um parágrafo sem margin bottom</p>
+      <!-- tags <ps> são display block e ao contrário da div que só deixa a linha exclusiva para a div o <p> também tem uma 
+        margem para dar um espaço entre os parágrafos por isso os parágrafos ficam tão distantes um do outro enquanto
+         nas divs de cima a linha fica uma em baixo da outra sem espaçamento.-->
+      <p style="margin: 0"> E aqui a história continua com um paragráfo sem nenhuma margin</p>
+    </div>
+
+    <p>
+      Aqui eu tenho o inicio de um parágrafo<span style="background-color: green; width: 500px; display: inline-block;">
+        um
+        SPAN no meio</span> E o fim do parágrafo
+    </p>
+
+    <p style="background-color: blue">
+      Aqui eu tenho o inicio de um parágrafo
+    <div style="background-color: red;">uma div no meio</div>
+    E o fim do parágrafo.
+    </p>
+
+    <p> Aqui no inicio tem uma imagem <img src="img/pcgamer.png" style="width: 400px; visibility: hidden;" alt=""
+        width="200">E no
+      fim tem outra. <img src="img/pcgamer.png" style="width: 400px; display: none;"></p>
+  </body>
+
+</html>

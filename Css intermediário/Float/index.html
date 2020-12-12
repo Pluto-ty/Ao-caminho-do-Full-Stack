@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      body {
+        font-size: 1.2em;
+      }
+      img {
+        width: 200px;
+      }
+      #img1 {
+        float: left;
+      }
+      #img2 {
+        float: right; /*Flutua a imagem para um lado e faz com que conteúdos "abraçem" ela e fiquem juntos como o p*/
+      }
+      p {
+        clear: right; /*(right,left,both,none). escolhe um lado ou ambos para n ter elementos na mesma linha como o float faz e o elemento float se separa.
+        se escolher um lado como right mas ter um no left o elemento float ainda vai funcionar pq você só escolheu os elementos no lado right.*/
+      }
+      #div {
+        border: 1px solid red;
+        background-color: #58e;
+        padding: 10px;
+        overflow: auto;
+      }
+
+      ul {
+        list-style-type: none;
+      }
+      li {
+        float: left;
+        padding: 10px;
+        background-color: #58e;
+        margin: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <img id="img2" src="/img/Igris.png" alt="" /> -->
+    <div id="div">
+      <img id="img1" src="/img/Igris.png" alt="" />
+      <p id="id1">
+        Igris Putasso Igris Putasso Igris Putassossss Igris Putasso Igris
+        Putasso Igris Putasso Igris Putasso Igris Putasso Igris Putasso Igris
+        Putasso Igris Putasso Igris Putasso Igris Putasso Igris Putasso Igris
+        Putasso Igris Putasso Igris Putasso
+      </p>
+    </div>
+
+    <ul>
+      <li>Menu</li>
+      <li>Home</li>
+      <li>End</li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style type="text/css">
+            body {
+                font-size: 1.2em;
+            }
+
+            #container {
+                color: white;
+                background-color: blue;
+                width: 400 px;
+                height: 100px;
+
+                /*A propriedade overflow especifica se é necessário cortar o conteúdo 
+                ou adicionar barras de rolagem quando o conteúdo de um elemento é 
+                muito grande para caber na área especificada.
+
+                Overflow: auto, hidden, scroll e visible.  
+                - auto escolhe automaticamente se precisa de scroll pra cima ou para baixo do conteúdo
+                conforme o tamanho do elemento e a área de ocupa. 
+                -hidden esconde o conteúdo que ultrapassar o limite do elemento sem
+                colocar um scrool para vê-lo.
+                scroll- cria uma barra de scroll tanto para baixo e para o lado independente
+                do tamanho do elemento.
+                -visible deixa o elemento totalmente visível independente do tamanho
+                do conteúdo e se está ultrapassando o limite do elemento 
+                overflow-x: scroll; overflow-y: hidden - usado para colocar um scrool num determinado lado
+                e podendo esconder o outro. 
+                */
+                overflow: auto;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="container">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.
+        </div>
+    </body>
+
+</html>

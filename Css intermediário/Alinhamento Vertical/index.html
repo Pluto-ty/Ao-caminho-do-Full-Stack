@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style type="text/css">
+      body {
+        font-size: 1.2em;
+      }
+
+      .card {
+        position: relative;
+        float: left;
+        width: 400px;
+        height: 200px;
+        border: 2px solid green;
+        text-align: center;
+      }
+      /*Tente não misturar float com display. Tente usar apenas um para cada ocasião*/
+      .card2 {
+        float: left;
+        border: 2px solid green;
+        padding: 100px 150px 100px 150px;
+      }
+
+      .c1 {
+        /*alinhamento de forma manual*/
+        background-color: red;
+        line-height: 200px;
+      }
+
+      .c2 {
+        /*Alinhamento de forma "automática"*/
+        background-color: blue;
+        top: 50%; /*pega como base o pai do elemento*/
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        /* 1-x, 2-y, move baseado nos valores do elemento. -50% vai voltar ele 50% do tamanho dele no x e y para alinhar no centro*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="c1">Igor Oliveira</div>
+    </div>
+    <div class="card">
+      <div class="c2">Igor Oliveira</div>
+    </div>
+    <div class="card2">
+      <div>Igor Oliveira</div>
+    </div>
+  </body>
+</html>
