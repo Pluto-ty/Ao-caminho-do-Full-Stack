@@ -15,11 +15,102 @@ body {
 }
 
 header {
-  background-color: #2cb0b9;
+  background-color: #48c5ce;
   text-align: center;
   color: white;
   padding: 10px;
 }
 .title {
   font-size: 2rem;
+}
+
+section {
+  padding: 20px;
+  background-image: url("../images/people.jpg");
+  background-size: cover;
+  overflow: hidden; /*fazer a imagem cobrir todo o espaço que o form está ocupando*/
+}
+
+.formContainer {
+  max-width: 230px;
+  background-color: #ffffffbb;
+  padding: 20px;
+  float: right;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
+
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  color: white;
+  background-color: #48c5ce;
+  font-weight: BOLD;
+}
+
+select {
+  -moz-appearance: none; /*firefox*/
+  -webkit-appearance: none; /*Chrome e Safari 3*/
+  appearance: none; /* Edge 84, Firefox 1, Safari 3, Chrome 84, Opera 70*/
+  /*as três funções a cima é para resetar a aparência do select de navegadores para deixar uma própria e igual para todos*/
+  background-image: url(../images/arrow.jpg);
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+  /* calcula a posição do background, primeiro valor x e segundo y. Calc é uma função de calculo, aqui calculou a posição do x*/
+}
+
+footer {
+  background-color: #202121;
+  padding: 40px;
+  text-align: center;
+}
+.picture {
+  width: 160px;
+}
+
+.footer-description {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  max-width: 40%;
+  margin-left: 40px;
+}
+
+.footer-description p,
+.footer-description h3 {
+  margin-bottom: 20px;
+}
+
+.footer-description h3 {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  .formContainer {
+    float: none;
+    margin: auto;
+  }
+  .footer-description {
+    display: block;
+    max-width: 100%;
+    margin-left: 0;
+  }
+
+  .footer-description h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
 }
