@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="get">
+      <input type="color" name="color" /> <br />
+      <input type="date" name="date" max="2018-12-15" /> <br />
+      <!--quando clicar aparece um calendário para colocar a data-->
+      <input type="datetime-local" name="datetime" max="2018-12-15" /> <br />
+      <!--Mesmo que o de cima mas com o adicional de poder colocar horário-->
+      <input type="file" name="arquivo" /> <br />
+      <!--para type"file" o method do form tem que ser POST para o servidor conseguir pegar o arquivo e trabalhar com ele-->
+
+      <input type="number" name="numérico" min="5" max="10" /> <br />
+      <!--possível apenas colocar números-->
+      <input type="range" name="intervalo" min="2" max="10" value="6" /> <br />
+      <!--determinar um "intervalo" value pode determinar o valor padrão que vai estar quando abrir o formulário-->
+
+      <input type="tell" name="telefone" /> <br />
+      <!--o tell só afeta os telefones que no caso ele ira abrir o teclado numérico e só poderá digitar números. Isso no desktop não funciona e parece um input normal -->
+      <input type="email" name="email" /> <br />
+      <!--verifica se o que está sendo digitado é mesmo um email e se não for, não sera enviado. E ficará uma mensagem de alerta mostrando o que está de errado para corrigir-->
+      <input type="submit" />
+    </form>
+  </body>
+</html>

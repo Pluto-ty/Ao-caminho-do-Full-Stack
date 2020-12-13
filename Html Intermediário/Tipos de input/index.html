@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="GET" action="">
+      <input type="text" name="nome" />
+      <input type="password" name="senha" />
+      <!--Para senhas, mas n faz sentido deixar com o method Ge pq a senha do usuário vai ser visivel no link-->
+      <input type="checkbox" name="checkbox" value="Testando" /> Testando
+      checkbox <br />
+      <input type="checkbox" name="checkbox" value="Testando2" /> Testando
+      checkbox 2 <br />
+      <!--Faz uma checkbox para marcar/verificar igual a dos blocos de notas onlines-->
+      <!--Deixar um nome(para identificar as checkbox) e um value(para identificar a "resposta", ou qual checkbox marcada entre as outras) no checkbox para conseguir verificar qual checkbox foi marcada. Isso é visível no get que fica no link -->
+
+      <input type="radio" name="gender" value="M" /> Masculino <br />
+      <input type="radio" name="gender" value="F" /> Feminino<br />
+      <!-- Ao contrário do checkbox que pode ter vários marcados no mesmo name o rádio só pode ter 1.-->
+
+      <input type="reset" value="limpar dados" />
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
