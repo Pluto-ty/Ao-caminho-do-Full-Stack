@@ -9,21 +9,21 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Pluto-ty/Estudando-Game-Dev?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Pluto-ty/Ao-caminho-do-Full-Stack?style=flat-square">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Pluto-ty/Estudando-Game-Dev">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Pluto-ty/Ao-caminho-do-Full-Stack">
   
   <a href="https://github.com/Pluto-ty/README/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Pluto-ty/Estudando-Game-Dev">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Pluto-ty/Ao-caminho-do-Full-Stack">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/Pluto-ty/Estudando-Game-Dev/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Pluto-ty/Estudando-Game-Dev?style=social">
+   <a href="https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/Pluto-ty/Ao-caminho-do-Full-Stack?style=social">
   </a>
  
   <a href="https://github.com/Pluto-ty">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Feito por-Thyago Araujo-%237159c1?style=flat&logo=ghost">
+    <img alt="Stargazers" src="https://img.shields.io/badge/Feito por- Thyago Araujo-%237159c1?style=flat&logo=ghost">
     </a>
   
  
@@ -90,44 +90,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Demonstração dos jogos:
 
-### Feitos em Java:
-
-#### Primeiro Jogo Pong Básico / Modificado
-  <div class="coluna" align="center">
-	  <img src="./screenshoot/Game-pong-1.gif" width="49%">
-	  <img src="./screenshoot/game-pong-2.gif" width="49%">
-  </div>
-</br>
-
-#### "Zelda"
-   <div class="coluna" align="center">
-	  <img width="533" height="300" src="./screenshoot/game-zelda.gif">
-  </div>
-	
-#### Pac-Man
-<div class="coluna" align="center">
-	  <img width="300" height="300" src="./screenshoot/pac-man.png">
-</div>
-
-#### Tower Defense
-<div class="coluna" align="center">
-	  <img width="300" height="300" src="./screenshoot/tower-defense.png">
-</div>
-
-#### Space Invader	
-<div class="coluna" align="center">
-	  <img width="533" height="300" src="./screenshoot/space-invaders.gif">
-</div>
-
-</br>
-
-### Feitos no GameMaker:
-
-#### Tower Defense
-
-<div class="coluna">
-	  <img width="450" height="400" src="./screenshoot/tower-defense-2.png">
-</div>
 
 ---
 
