@@ -1,11 +1,11 @@
 
 
 <h1 align="center">
-     🕹️ <a href="#" alt="Projeto Game Dev"> Projeto Game Dev </a>
+     🕹️ <a href="#" alt="Projeto Game Dev"> Ao caminho do Full Stack </a>
 </h1>
 
 <h3 align="center">
-    Projeto pessoal que junta conteúdo do curso de desenvolvimento de games da danki code com projetos práticos
+    Reposítorio pessoal com conteúdo do que aprendi no curso Desenvolvimento Web Full stack do programador br.
 </h3>
 
 <p align="center">
@@ -47,30 +47,167 @@ Tabela de conteúdos
 
 ---
 
-## 💻 Sobre o projeto
+## 💻 Sobre o repositório
 
-Esse projeto é totalmente focado na minha caminhada de aprendizado no desenvolvimento de jogos. Desde o meu primeiro "jogo" que foi o pong em java até todos os jogos feitos no curso da danki code, também contara com projetos práticos e modificações dos projetos originais do curso. Ele começou com java como foi no começo do curso e no momento estou dando uns arranhos no Game Maker, meu objetivo final é migrar totalmente para o unity e dominar a ferramenta ou dominar tanto o Unity quanto o Game Maker. Este projeto não tem data para terminar, pelo menos não no momento, pois ele vai ser um repositório da minha caminhada como desenvolvedor com vários testes de funcionalidades e dentre outros.
+Esse repositório é totalmente focado na minha caminhada de aprendizado para ser um desenvolvedor full stack focado no front-end.
 
 🚧  Aviso 🚧 
-Alguns dos jogos podem estar incompletos ou com alguns bugs. São jogos para práticar ou testar algo, principalmente na versão java. Qualquer problema grave por favor me informar.
+Códigos comentados para minha própria revisada se precisar, se houver algo que acha que pode ser melhorado, não tenha medo de me comunicar isso me ajuda no meu crescimento profissional. 
+
+---
+## 🎨 Layout
+
+<h2> Pagina de Captura
+
+### Mobile
+
+<p align="center">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
+
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
+</p>
+
+### Web
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/web.svg" width="400px">
+
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px">
+</p>
 
 ---
 
 ## 🚀 Como executar o projeto
 
-Este projeto é divido em duas partes:
-1. Java ( Eclipse )
-2. GameMaker
+Este projeto é divido em três partes:
+1. Backend (pasta server) 
+2. Frontend (pasta web)
+3. Mobile (pasta mobile)
+
+💡Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+#### 🎲 Rodando o Backend (servidor)
+
+```bash
+
+# Clone este repositório
+$ git clone git@github.com:tgmarinho/README-ecoleta.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd README-ecoleta
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server
+
+# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+
+```
+<p align="center">
+  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
+
+
+#### 🧭 Rodando a aplicação web (Frontend)
+
+```bash
+
+# Clone este repositório
+$ git clone git@github.com:tgmarinho/README-ecoleta.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd README-ecoleta
+
+# Vá para a pasta da aplicação Front End
+$ cd web
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
+```
+
+---
+
+## 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+#### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)**
+-   **[React Icons](https://react-icons.github.io/react-icons/)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Leaflet](https://react-leaflet.js.org/en/)**
+-   **[React Leaflet](https://react-leaflet.js.org/)**
+-   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
+
+> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
+
+#### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Express](https://expressjs.com/)**
+-   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
+-   **[KnexJS](http://knexjs.org/)**
+-   **[SQLite](https://github.com/mapbox/node-sqlite3)**
+-   **[ts-node](https://github.com/TypeStrong/ts-node)**
+-   **[dotENV](https://github.com/motdotla/dotenv)**
+-   **[Multer](https://github.com/expressjs/multer)**
+-   **[Celebrate](https://github.com/arb/celebrate)**
+-   **[Joi](https://github.com/hapijs/joi)**
+
+> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
+
+#### [](https://github.com/tgmarinho/Ecoleta#mobile-react-native--typescript)**Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
+
+-   **[Expo](https://expo.io/)**
+-   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
+-   **[React Navigation](https://reactnavigation.org/)**
+-   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
+-   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
+-   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
+-   **[Axios](https://github.com/axios/axios)**
+-   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
+-   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
+
+> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/mobile/package.json)
+
+#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
+
+-   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
+-   API:  **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)**  →  **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**,  **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
+-   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
+-   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
+-   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
+-   Teste de API:  **[Insomnia](https://insomnia.rest/)**
+-   Ícones:  **[Feather Icons](https://feathericons.com/)**,  **[Font Awesome](https://fontawesome.com/)**
+-   Fontes:  **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**,  **[Roboto](https://fonts.google.com/specimen/Roboto)**
+
+
+
+## 🚀 Como executar o projeto
+
 
 
 ### Pré-requisitos
 Antes de começar, você vai ter que ter instalado para a parte dos jogos feitos em java o [Eclipse IDE](https://www.eclipse.org/downloads/) e o [JDK](https://www.oracle.com/java/technologies/javase-downloads.html) do java. Para os jogos feitos em Game maker tem o próprio aplicativo [Game Maker](https://www.yoyogames.com/get).
 
-#### Rodando Java
-Quando abrir o Eclipse ele pedira para escolher uma pasta do projeto. Você escolhera a projeto estudos ou projetos prática que são as pastas com os jogos feito em java. Qualquer bug ou problema me informe porque alguns dos projetos foram feitos a muito tempo e não sei se podem ter problema com versão.
-
-#### Rodando GameMaker
-Abrindo o GameMaker você clica em **open** depois para a pasta Game Maker onde estão os jogos e abra a pasta do jogo que queira executar, selecione o arquivo executavel do game maker .yyp e pronto ele abrira o projeto escolhido.
 
 ---
 
@@ -92,6 +229,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 ---
+
 
 ## 💪 Como contribuir no projeto
 
