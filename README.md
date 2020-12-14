@@ -62,9 +62,9 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 ### Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
+  <img alt="Header/Main" title="Header/Main" src="./assets/home-mobile.png" width="200px">
 
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
+  <img alt="Footer" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
 </p>
 
 ### Web
