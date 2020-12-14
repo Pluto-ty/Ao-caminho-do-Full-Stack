@@ -66,7 +66,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 <p align="center">
   <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
   </br>
-  <img alt="Footer" title="#NextLevelWeek" src="./readme-images/footer-mobile.png" width="200px" styles="margin-top:0">
+  <img alt="Footer" title="#NextLevelWeek" src="./readme-images/footer-mobile.png" width="200px" style="margin-top:0">
 </p>
 
 ### Web
