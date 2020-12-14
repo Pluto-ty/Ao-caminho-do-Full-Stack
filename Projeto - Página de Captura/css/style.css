@@ -99,6 +99,7 @@ footer {
 }
 
 @media screen and (max-width: 500px) {
+  /*Responsivo para dispositivos de 500px pra baixo*/
   .formContainer {
     float: none;
     margin: auto;
