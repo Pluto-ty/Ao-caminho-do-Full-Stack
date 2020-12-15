@@ -63,7 +63,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 ### Mobile
 
-<div style= "margin-bottom: 120px; width: 200px; margin: 10px; position: relative; text-align: center; display: -webkit-flex; display: flex; align-items: flex-end;">
+<div style= "margin-bottom: 120px; width: 200px; margin: 10px; position: relative; align: center; display: -webkit-flex; display: flex; align-items: flex-end;">
   <p>
     <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">   
   </p> 
@@ -71,7 +71,9 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
   <p>
     <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
   </p>
-<div>
+</div>
+	
+	
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
