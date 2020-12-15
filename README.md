@@ -61,7 +61,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 <h3> Pagina de Captura
 
-### Mobile
+<h4> Mobile </h4>
 
 
 
@@ -70,7 +70,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 	<img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
   </p> 
 		
-### Web
+<h4> Web </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/web.png" width="600px">
