@@ -54,11 +54,12 @@ Esse repositório é totalmente focado na minha caminhada de aprendizado para se
 <p>
 Códigos comentados para minha própria revisada se precisar, se houver algo que acha que pode ser melhorado, não tenha medo de me comunicar isso me ajuda no meu crescimento profissional.
 </p>
+
 ---
 
 <h2> Projetos </h2>
 
-<h3> Pagina de Captura
+<h3> -Pagina de Captura
 
 <h4> Mobile </h4>
 
