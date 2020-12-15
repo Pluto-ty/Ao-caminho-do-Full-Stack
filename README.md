@@ -63,8 +63,6 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 <h4> Mobile </h4>
 
-
-
   <p align="center";>
    <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
 	<img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
@@ -80,40 +78,18 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 <h2> 🚀 Como executar o projeto </h2>
 
-Este projeto é divido em três partes:
+Este projeto por enquanto só tem Front-end.
 
-2. Frontend (pasta web)
-3. Mobile (pasta mobile)
+
 
 ### Pré-requisitos
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) e um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-#### 🧭 Rodando a aplicação web (Frontend)
 
-```bash
-
-# Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-ecoleta
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
-```
-
----
+1-Faça clone do projeto- https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
+2-Abra com o editor de escolha e modifique,brinque a vontade.
 
 ---
 
