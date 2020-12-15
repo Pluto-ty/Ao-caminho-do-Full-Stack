@@ -54,6 +54,21 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 ---
 
+<h2> 🚀 Como executar o projeto </h2>
+
+Este projeto por enquanto só tem Front-end.
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com) e um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+
+1. Faça clone do projeto- https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
+2. Abra com o editor de escolha e modifique,brinque a vontade.
+
+---
+
 <h2> Projetos </h2>
 
 <h3> -Pagina de Captura
@@ -70,21 +85,6 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/web.png" width="600px">
 </p>
-
----
-
-<h2> 🚀 Como executar o projeto </h2>
-
-Este projeto por enquanto só tem Front-end.
-
-### Pré-requisitos
-
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) e um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-
-
-1. Faça clone do projeto- https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
-2. Abra com o editor de escolha e modifique,brinque a vontade.
 
 ---
 
