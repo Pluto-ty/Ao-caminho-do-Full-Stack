@@ -63,7 +63,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 ### Mobile
 
-<div style= "margin-bottom: 120px; width: 200px; margin: 10px; position: relative; text-align: center; display: -webkit-flex; display: flex; align-items: flex-end;">
+<div style= "margin-bottom: 0px; margin: 0px; position: relative; text-align: center; display: flex; align-items: flex-end;">
   <div>
     <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">   
   </div> 
