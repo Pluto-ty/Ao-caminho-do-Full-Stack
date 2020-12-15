@@ -63,12 +63,12 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 ### Mobile
 
-<p align= "center"; style=" margin: 0px; position: relative;">
+<p align= "center"; style=" margin-bottom: 0px;  position: relative;">
   <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
   
 </p> 
 
-<p align= "center"; style="margin: 0px; position: relative;">
+<p align= "center"; style="margin-bottom: 0px; position: relative;">
    <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
 </p>
 
