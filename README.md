@@ -31,17 +31,14 @@
 	🚧  Em andamento 🚧
 </h4>
 
-<h2> Tabela de conteúdos </h2>
-
-<!--ts-->
-
-- [Sobre o projeto](#---sobre-o-repositório-)
-- [Como executar o projeto](#--como-executar-o-projeto-)
-  - [Pré-requisitos](#pré-requisitos)
-- [Como contribuir no projeto](#-como-contribuir-no-projeto)
-- [Autor](#autor)
-- [Licença](#user-content--licença)
-<!--te-->
+<p align="center">
+ <a href="#---sobre-o-repositório-">Sobre o projeto</a> •
+ <a href="#--como-executar-o-projeto-">Como executar o projeto</a> •
+ <a href="#-layout">Projetos</a> • 
+ <a href="#-como-contribuir-no-projeto">Como contribuir no projeto</a> • 
+ <a href="#-autor">Autor</a> • 
+ <a href="#user-content--licença">Licença</a>
+</p>
 
 ---
 
