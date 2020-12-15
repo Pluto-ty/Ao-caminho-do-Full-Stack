@@ -35,7 +35,7 @@
 
 <!--ts-->
 
-- [Sobre o projeto](#--sobre-o-repositório-)
+- [Sobre o projeto](#---sobre-o-repositório-)
 - [Como executar o projeto](#-como-executar-o-projeto)
   - [Pré-requisitos](#pré-requisitos)
 - [Tecnologias](#-tecnologias)
