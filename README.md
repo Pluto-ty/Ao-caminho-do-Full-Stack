@@ -63,7 +63,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 ### Mobile
 
-<p margin="0px"; position= "relative"; align= "center"; display= "flex"; justify-content= "center"; display= "flex";>
+<p align= "center"; display= "flex";>
   <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
   
 </p> 
