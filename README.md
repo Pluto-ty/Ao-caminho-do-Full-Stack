@@ -1,4 +1,4 @@
-    <style type="text/css">
+   <style type="text/css">
       .p1{
         margin-bottom: 120px;
         margin: 0px;
@@ -8,7 +8,7 @@
         justify-content: center;
         display: flex;
       }
-    </style>
+  </style>
 
 <h1 align="center">
      🕹️ <a href="#" alt="Ao caminho do Full Stack"> Ao caminho do Full Stack </a>
