@@ -64,7 +64,10 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 ### Mobile
 
 
- <p style=" margin-bottom: 120px;margin: 0px;position: relative;text-align: center;display: flex; justify-content: center; display: flex;">
+ <p margin-bottom= "120px" ;margin= "0px";position=  "relative" ;text-align= "center" ;display= "flex"; justify-content= "center"; display= "flex";>
+   <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">   
+ </p > 
+  <p margin-bottom= "120px" ;margin= "0px";position=  "relative" ;text-align= "center" ;display= "flex"; justify-content= "center"; display= "flex";>
    <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">   
  </p > 
 
