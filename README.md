@@ -34,7 +34,7 @@
 <p align="center">
  <a href="#---sobre-o-repositório-">Sobre o projeto</a> •
  <a href="#--como-executar-o-projeto-">Como executar o projeto</a> •
- <a href="#-layout">Projetos</a> • 
+ <a href="#-projetos-">Projetos</a> • 
  <a href="#-como-contribuir-no-projeto">Como contribuir no projeto</a> • 
  <a href="#-autor">Autor</a> • 
  <a href="#user-content--licença">Licença</a>
