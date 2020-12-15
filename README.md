@@ -36,8 +36,8 @@
 <!--ts-->
 
 - [Sobre o projeto](#---sobre-o-repositório-)
-- [Como executar o projeto](#-como-executar-o-projeto)
-  - [Pré-requisitos](#-pré-requisitos)
+- [Como executar o projeto](#--como-executar-o-projeto-)
+  - [Pré-requisitos](#pré-requisitos)
 - [Como contribuir no projeto](#-como-contribuir-no-projeto)
 - [Autor](#autor)
 - [Licença](#user-content--licença)
