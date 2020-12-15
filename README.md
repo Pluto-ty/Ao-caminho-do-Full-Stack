@@ -1,15 +1,3 @@
-   <style type="text/css">
-      .p1{
-        margin-bottom: 120px;
-        margin: 0px;
-        position: relative;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        display: flex;
-      }
-  </style>
-
 <h1 align="center">
      🕹️ <a href="#" alt="Ao caminho do Full Stack"> Ao caminho do Full Stack </a>
 </h1>
@@ -75,12 +63,12 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 ### Mobile
 
-<p class="p1">
+<p margin="0px"; position= "relative"; text-align= "center"; display= "flex"; justify-content= "center"; display= "flex";>
   <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
   
 </p> 
 
-<p margin-bottom: 120px; margin: 0px; position: relative; text-align: center; display: flex; justify-content: center; display: flex;>
+<p margin="0px"; position= "relative"; text-align= "center"; display= "flex"; justify-content= "center"; display= "flex";>
    <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
 </p>
 
