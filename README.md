@@ -35,7 +35,7 @@
 
 <!--ts-->
 
-- [Sobre o projeto](#-sobre-o-projeto)
+- [Sobre o projeto](#--sobre-o-repositório-)
 - [Como executar o projeto](#-como-executar-o-projeto)
   - [Pré-requisitos](#pré-requisitos)
 - [Tecnologias](#-tecnologias)
@@ -46,7 +46,7 @@
 
 ---
 
-<h2> 💻 # Sobre o repositório </h2>
+<h2> 💻  Sobre o repositório </h2>
 
 Esse repositório é totalmente focado na minha caminhada de aprendizado para ser um desenvolvedor full stack focado no front-end.
 
