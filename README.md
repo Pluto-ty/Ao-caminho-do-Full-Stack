@@ -65,10 +65,10 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 
 
-  <p align="center"; margin="0"; border="0">
+  <p align="center"; style=" margin:0; padding:0; border:0;">
    <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
   </p> 
-  <p align="center"; margin="0"; border="100%">
+  <p align="center"; style=" margin:0; padding:0; border:0;">
    <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
   </p> 
 	
