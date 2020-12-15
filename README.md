@@ -80,7 +80,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
   
 </p> 
 
-<p class="p1">
+<p margin-bottom: 120px; margin: 0px; position: relative; text-align: center; display: flex; justify-content: center; display: flex;>
    <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
 </p>
 
