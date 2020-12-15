@@ -68,7 +68,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
   
 </p> 
 
-<p margin="0px"; position= "relative"; align= "center"; display= "flex"; justify-content= "center"; display= "flex";>
+<p margin="0px"; position= "relative"; align= "center"; display= "flex";>
    <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
 </p>
 
