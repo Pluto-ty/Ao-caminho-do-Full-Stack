@@ -63,12 +63,12 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 ### Mobile
 
-<p align= "center"; style="display: flex; align-items: flex-start; justify-content: center;">
+<p align= "center"; style="display: flex; margin: 0px;">
   <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
   
 </p> 
 
-<p align= "center"; style="display: flex; align-items: flex-start; justify-content: center;">
+<p align= "center"; style="display: flex; margin: 0px;">
    <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
 </p>
 
