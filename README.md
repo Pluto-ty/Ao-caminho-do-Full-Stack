@@ -65,8 +65,11 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 
 
-  <p align="center"; display="inline-block">
+  <p align="center";>
    <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
+   <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
+  </p> 
+  <p align="center";>
    <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
   </p> 
 	
