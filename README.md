@@ -63,13 +63,13 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 ### Mobile
 
-<p align="center" padding-bottom="0">
-  <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px" display="block">
-  <img alt="Footer" title="#NextLevelWeek" src="./readme-images/footer-mobile.png" width="200px" display="inline-block">
+<p margin-bottom="120px" margin= "0px" position= "relative" text-align= "center"display= "flex" justify-content= "center" display= "flex">
+  <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
+  
 </p> 
 
-<p align="center" padding-top="0">
-   
+<p margin-bottom="120px" margin= "0px" position= "relative" text-align= "center"display= "flex" justify-content= "center" display= "flex">
+   <img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
 </p>
 
 ### Web
