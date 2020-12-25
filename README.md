@@ -86,6 +86,24 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/web.png" width="600px">
 </p>
 
+
+<h3> -Loja de Açaí Fictícia 
+
+<h4> Mobile </h4>
+
+  <p align="center";>
+   <img alt="Header/Main" title="Header/Main" src="./readme-images/index-mobile.png" width="200px">
+	<img alt="Footer" title="Footer" src="./readme-images/products-mobile.png" width="200px">
+  </p> 
+		
+<h4> Web </h4>
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/index.png" width="300px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/products.png" width="300px">
+</p>
+
+
 ---
 
 ## 💪 Como contribuir no projeto
