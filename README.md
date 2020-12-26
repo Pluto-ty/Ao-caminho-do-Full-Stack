@@ -76,14 +76,14 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 <h4> Mobile </h4>
 
   <p align="center";>
-   <img alt="Header/Main" title="Header/Main" src="./readme-images/home-mobile.png" width="200px">
-	<img alt="Footer" title="Footer" src="./readme-images/footer-mobile.png" width="200px">
+   <img alt="Header/Main" title="Header/Main" src="./readme-images/página-captura/home-mobile.png" width="200px">
+	<img alt="Footer" title="Footer" src="./readme-images/página-captura/footer-mobile.png" width="200px">
   </p> 
 		
 <h4> Web </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/web.png" width="600px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/página-captura/web.png" width="600px">
 </p>
 
 
@@ -92,15 +92,15 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 <h4> Mobile </h4>
 
   <p align="center";>
-   <img alt="Header/Main" title="Header/Main" src="./readme-images/index-mobile.png" width="200px">
-	<img alt="Footer" title="Footer" src="./readme-images/products-mobile.png" width="200px">
+   <img alt="Header/Main" title="Header/Main" src="./readme-images/desafio-03/index-mobile.png" width="200px">
+	<img alt="Footer" title="Footer" src="./readme-images/desafio-03/products-mobile.png" width="200px">
   </p> 
 		
 <h4> Web </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/index.png" width="300px">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/products.png" width="300px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/desafio-03/index.png" width="300px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/desafio-03/products.png" width="300px">
 </p>
 
 
