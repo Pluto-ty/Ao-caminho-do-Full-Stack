@@ -101,7 +101,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/desafio-03/index.png" width="600px">
   <br/>
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/desafio-03/products.png" width="300px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/desafio-03/products.png" width="600px">
 </p>
 
 
