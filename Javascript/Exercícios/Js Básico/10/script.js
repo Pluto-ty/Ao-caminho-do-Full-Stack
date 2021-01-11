@@ -28,15 +28,15 @@ for (var i = 0; i < 5; i++) {
   }
 }
 
-//Resposta:
+//Resposta: forma mais rápida e limpa.
 
-// function escada(altura) {
-//   for (let i = 1; i <= altura; i++) {
-//     let string = "";
-//     for (let j = 1; j <= i; j++) {
-//       string += "* ";
-//     }
-//     console.log(string);
-//   }
-// }
-// // escada(25)
+function escada(altura) {
+  for (let i = 1; i <= altura; i++) {
+    let string = "";
+    for (let j = 1; j <= i; j++) {
+      string += "* ";
+    }
+    console.log(string);
+  }
+}
+escada(10);

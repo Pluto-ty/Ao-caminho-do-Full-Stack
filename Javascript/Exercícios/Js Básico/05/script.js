@@ -10,7 +10,7 @@ function par(n1) {
 
 par(16);
 
-//Resposta:
+//Resposta: // Outra forma elaborada.
 
 function maiorEntreDois(num1, num2) {
   if (num1 > num2) {
@@ -28,14 +28,13 @@ function maiornum(lista) {
   return maior;
 }
 
-console.log(maiornum([8, 4, 6]));
+function parOuImpar(num) {
+  if (num % 2 == 0) {
+    console.log("par");
+  } else {
+    console.log("ímpar");
+  }
+}
 
-// function parOuImpar(num){
-//   if(num%2 == 0){
-//       console.log("par")
-//   }else{
-//       console.log("impar")
-//   }
-// }
-// const maior = maiorNum([9,25,3,20,32,18])
-// parOuImpar(maior)
+const maior = maiornum([9, 3, 5, 2, 6, 10, 15]);
+parOuImpar(maior);
