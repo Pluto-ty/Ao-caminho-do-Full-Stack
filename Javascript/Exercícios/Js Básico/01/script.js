@@ -12,4 +12,13 @@ function maior(n1, n2) {
   }
 }
 
+function menorEntreDois(n1, n2) {
+  if (n2 > n1) {
+    return n1;
+  } else {
+    return n2;
+  }
+}
+
 var resultado = maior(1, 2);
+console.log("Menor número: " + menorEntreDois(9, 8));

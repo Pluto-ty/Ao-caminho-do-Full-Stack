@@ -12,3 +12,15 @@ function imprimir(objeto) {
 
 imprimir(objeto);
 console.log(Object.values(objeto));
+
+//Resposta:
+
+// function propriedades(object){
+//   for(let propriedade in object){
+//       console.log(propriedade)
+//   }
+// }
+
+// var pessoa = {nome: "José", idade:35, altura: 1.80}
+
+// propriedades(pessoa)

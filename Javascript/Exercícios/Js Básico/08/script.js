@@ -17,3 +17,27 @@ function date(d, m, a) {
 var data = date(dia, mês, ano);
 
 console.log(data);
+
+//Resposta:
+
+// function data(d){
+//   var meses = ['Janeiro',
+//   'Fevereiro',
+//   'Março',
+//   'Abril',
+//   'Maio',
+//   'Junho',
+//   'Julho',
+//   'Agosto',
+//   'Setembro',
+//   'Outubro',
+//   'Novembro',
+//   'Dezembro']
+//  return {
+//       dia:d.getDate(),
+//       mes: meses[d.getMonth()],
+//       ano: d.getFullYear()
+//   }
+// }
+
+// console.log(data(new Date(Date.now())))

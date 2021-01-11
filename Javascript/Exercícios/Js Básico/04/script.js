@@ -11,3 +11,15 @@ console.log(
   num,
   ", é: " + resultado / num.length
 );
+
+//Resposta: outra forma
+
+function media(lista) {
+  var total = 0;
+  for (let num of lista) {
+    total += num;
+  }
+  return total / lista.length;
+}
+
+console.log(media([5, 5, 5]));

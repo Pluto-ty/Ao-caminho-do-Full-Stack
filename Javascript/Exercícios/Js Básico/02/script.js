@@ -19,3 +19,15 @@ test.sort(function (a, b) {
 });
 
 console.log("Array ordenada: ", test);
+
+//Resposta:
+
+function ordenarLista(lista) {
+  var listaOrdenada = lista.sort((a, b) => a - b);
+  for (let num of listaOrdenada) {
+    console.log(num);
+  }
+  return listaOrdenada;
+}
+
+console.log(ordenarLista([9, 24, 5, 10, 16]));
