@@ -104,7 +104,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/desafio-03/products.png" width="600px">
 </p>
 
-
+<h3> To-do list </h3>
+<p align="center";>
+<img alt="to-do-list" title="to-do-list-home" src=".readme-images/exercicios-js/to-do-list_desktop.png" width="600px">
+</p>
 ---
 
 ## 💪 Como contribuir no projeto
