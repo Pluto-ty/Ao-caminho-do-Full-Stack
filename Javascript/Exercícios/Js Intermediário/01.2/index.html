@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1>To-do List</h1>
+      <input
+        type="text"
+        placeholder="Write The task"
+        class="i-text"
+        id="item"
+      />
+      <br />
+      <input
+        type="submit"
+        value="Create"
+        class="i-inputs create"
+        onclick="createTask()"
+      />
+      <input
+        type="submit"
+        value="Delete"
+        class="i-inputs delete"
+        onclick="deleteTask()"
+      />
+      <input
+        type="submit"
+        value="Clear"
+        onclick="clearList()"
+        class="i-inputs clear"
+      />
+      <div class="tasks">
+        <u id="list"></u>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
