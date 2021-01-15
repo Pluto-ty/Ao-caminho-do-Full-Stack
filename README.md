@@ -109,7 +109,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 <img alt="to-do-list" title="to-do-list-home" src="./readme-images/exercicio-js/to-do-list_desktop.png" width="600px">
 </p>
 
-<h3> To-do list </h3>
+<h3> Churrascômetro </h3>
 <p align="center";>
 <img alt="churrascometro" title="churrascometro" src="./readme-images/exercicio-js/churrascometro.png" width="600px">
 </p>
