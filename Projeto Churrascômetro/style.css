@@ -1,22 +1,52 @@
+body {
+  background-color: rgb(221, 223, 203);
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  width: 600px;
+  top: 5%;
+  left: 2vw;
+  position: absolute;
+}
+
+.grill {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+  max-width: 60vh;
+}
+
 .container {
-  align-items: left;
+  margin-right: 10px;
   text-align: center;
   margin-left: auto;
   max-width: 460px;
-  background-color: rgb(11, 140, 253);
+  background-color: rgb(64, 166, 255);
   padding: 20px;
   border-radius: 10px;
   height: 90vh;
 }
+.box-title {
+  margin-bottom: 30px;
+}
 
+.p-inputs {
+  font-size: 23px;
+  margin: 0;
+}
 input {
+  font-size: 20px;
+  margin: auto;
   border: 0px;
   border-radius: 10px;
   display: block;
-  width: 100%;
-  padding: 15px;
+  width: 75%;
+  padding: 17px;
   box-sizing: border-box;
-  margin-bottom: 10px;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 button {
@@ -24,21 +54,78 @@ button {
   padding: 20px 30px 20px 30px;
   border-radius: 10px;
   border: 0px;
-  background-color: rgb(19, 107, 184);
+  background-color: rgb(19, 133, 233);
 }
 
 #resultado {
   text-align: left;
-  margin-left: 50px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+.h2-resultado {
+  font-size: 23px;
 }
 
-p {
+.p-resultado {
   margin: 0;
   font-size: 20px;
   font-weight: 500;
   display: inline;
 }
-img {
+.img-resultado {
   display: inline;
-  max-width: 20px;
+  max-width: 40px;
+}
+
+@media (max-width: 1100px) {
+  .title {
+    font-size: 28px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    width: 400px;
+  }
+
+  .grill {
+    position: static;
+    top: 0;
+    left: 0;
+    margin-left: 35vw;
+    max-width: 40vh;
+  }
+  .container {
+    margin-right: 0;
+    margin: auto;
+    max-width: 460px;
+    background-color: rgb(64, 166, 255);
+    padding: 20px;
+    border-radius: 10px;
+    height: 90vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 28px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    width: 300px;
+  }
+  .grill {
+    position: static;
+    top: 0;
+    left: 0;
+    margin-left: 35vw;
+    max-width: 25vh;
+  }
+}
+
+@media (max-height: 700px) {
+  .container {
+    height: 125vh;
+  }
+  .img-resultado {
+    max-width: 25px;
+  }
 }

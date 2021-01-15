@@ -7,33 +7,42 @@
     <title>Churrascômetro</title>
   </head>
   <body>
-    <!-- <h1>
-      Descubra quanto vai precisar de comida e bebida <br />para fazer aquele
-      churrascão com os amigos
-    </h1> -->
-    <div class="container">
-      <h2>Churrascômetro</h2>
+    <div class="container-puto">
+      <h1 class="title">
+        Descubra quanto vai precisar de comida e bebida para fazer aquele
+        churrascão com os amigos
+      </h1>
+      <br />
+      <img src="img/grill.png" alt="grill" class="grill" />
 
-      <p>Quantidade de produtos</p>
-      <input id="adultos" name="adultos" type="number" placeholder="Adultos" />
-      <p>Quantidade de crianças</p>
-      <input
-        id="criancas"
-        name="criancas"
-        type="number"
-        placeholder="Crianças"
-      />
-      <p>Tempo do churrasco:</p>
-      <input
-        id="duracao"
-        name="duracao"
-        type="number"
-        placeholder="Duração (h)"
-      />
-      <button onclick="calcular()" class="buttom">Calcular</button>
-      <div id="resultado"></div>
+      <div class="container">
+        <h2 class="box-title">Churrascômetro</h2>
+
+        <p class="p-inputs">Quantidade de produtos</p>
+        <input
+          id="adultos"
+          name="adultos"
+          type="number"
+          placeholder="Adultos"
+        />
+        <p class="p-inputs">Quantidade de crianças</p>
+        <input
+          id="criancas"
+          name="criancas"
+          type="number"
+          placeholder="Crianças"
+        />
+        <p class="p-inputs">Tempo do churrasco:</p>
+        <input
+          id="duracao"
+          name="duracao"
+          type="number"
+          placeholder="Duração (h)"
+        />
+        <button onclick="calcular()" class="buttom">Calcular</button>
+        <div id="resultado"></div>
+      </div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>

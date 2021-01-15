@@ -21,14 +21,14 @@ function calcular() {
   let qntTotalBebidas =
     bebidasPP(duração) * adultos + (bebidasPP(duração) / 2) * crianças;
 
-  resultado.innerHTML = "<h2>Você vai Precisar de: </h2>";
-  resultado.innerHTML += `<img src="img/meat.png" alt="meat" />  <p> ${
+  resultado.innerHTML = "<h2 class='h2-resultado'>Você vai Precisar de: </h2>";
+  resultado.innerHTML += `<img src="img/meat.png" alt="meat" class = "img-resultado" />  <p class = "p-resultado"> ${
     qntTotalCarne / 1000
   } Kg de Carne </p> </br>`;
-  resultado.innerHTML += `<img src="img/beer.png" alt="beer" /> <p> ${Math.ceil(
+  resultado.innerHTML += `<img src="img/beer.png" alt="beer" class = "img-resultado" /> <p class = "p-resultado"> ${Math.ceil(
     qntTotalCerveja / 355
   )} Latas de Cerveja </p> </br>`;
-  resultado.innerHTML += ` <img src="img/water.png" alt="Water" /> <p> ${Math.ceil(
+  resultado.innerHTML += ` <img src="img/water.png" alt="Water"  class = "img-resultado" /> <p class = "p-resultado"> ${Math.ceil(
     qntTotalCarne / 2000
   )} Pet's de 2l</p>`;
 }
