@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <video id="video" src="video0-2.mp4"></video>
+      <div class="controler">
+        <img onclick="retro()" class="btn" src="img/-15.png" alt="Back" />
+        <img onclick="avancar()" class="btn" src="img/+15.png" alt="Foward" />
+        <img onclick="play()" class="btn" src="img/play.png" alt="Play" />
+        <img onclick="stop()" class="btn" src="img/stop.png" alt="Stop" />
+        <img
+          onclick="diminuir_Vel()"
+          class="btn"
+          src="img/menos.png"
+          alt="Decrease"
+        />
+        <img
+          onclick="avancar_Vel()"
+          class="btn"
+          src="img/mais.png"
+          alt="Increase"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
