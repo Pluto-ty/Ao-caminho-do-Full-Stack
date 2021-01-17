@@ -3,10 +3,13 @@
 // let img = document.getElementsByClassName("img");
 
 // img[0].addEventListener("click", function () {
-/* img[0].src = "/img/Igris.png"; */
-//primeira forma de se mudar a img
-/* img[0].setAttribute("src", "/img/Igris.png"); */
-//segunda forma
+// Forma básica
+// img[0].src = "/img/Igris.png";
+//
+//segunda forma de se mudar a img
+// img[0].setAttribute("src", "/img/Igris.png");
+//
+//terceira forma
 /*
   // let lastImage = img[0].getAttribute("src");
   // img[0].setAttribute("src", "/img/Igris.png");

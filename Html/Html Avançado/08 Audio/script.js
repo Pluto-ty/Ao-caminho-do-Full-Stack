@@ -1,3 +1,5 @@
+//Brincando com a tag audio e criando um próprio player para o audio.
+
 //Criar os icones.
 //  redimensionar e posicionar eles.
 // Criar função dos botões.

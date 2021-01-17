@@ -1,0 +1,34 @@
+/* Aprendendo a usar alguns Pseudo elementos */
+
+/* first-letter - estilizar a primeira letra do elemento, normalmente usada em textos ou títulos e etc. */
+p::first-letter {
+  font-size: 5rem;
+  color: aqua;
+}
+
+/* first-line - Estiliza a primeira linha do elemento, normalmente usado para textos */
+p::first-line {
+  color: tomato;
+}
+
+li {
+  /* no segundo desafio que pedia para fazer um cartão de visita e tentei desse jeito, mas n tinha como mudar o tamanho da img. */
+  /* margin-left: 200px; */
+  list-style-type: none;
+
+  /* list-style-image: url("./google.jpg"); */
+}
+
+/* Esse é o jeito certo colocando o pseudo elemento before ele estiliza o que vem antes do li.
+Podendo colocar uma imagem de background e modificar seu tamanho. */
+/* Before estiliza o que vem antes de um elemento, podendo colocar outros atributos também como nesse caso. */
+li::before {
+  content: "";
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-image: url("./google.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

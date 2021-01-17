@@ -1,3 +1,4 @@
+//aprendendo a mexer com a tag vídeo e criando um player próprio.
 let video = document.getElementById("video");
 function retro() {
   video.currentTime -= 15;

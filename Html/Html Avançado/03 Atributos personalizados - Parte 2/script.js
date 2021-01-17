@@ -1,3 +1,4 @@
+//Aprendendo a mexer com atributos que não são o padrão e sim criados por nós.
 //Forma mais "correta" e que simplifica nossa vida.
 //Para atributos que nós criamos o ideal é que coloquemos data-(nome que quer colocar)="valor"; no html
 
