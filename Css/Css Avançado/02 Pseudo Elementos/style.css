@@ -11,6 +11,10 @@ p::first-line {
   color: tomato;
 }
 
+/* selecion - estiliza os elementos selecionados. */
+p::selection {
+  background-color: aqua;
+}
 li {
   /* no segundo desafio que pedia para fazer um cartão de visita e tentei desse jeito, mas n tinha como mudar o tamanho da img. */
   /* margin-left: 200px; */
@@ -22,11 +26,12 @@ li {
 /* Esse é o jeito certo colocando o pseudo elemento before ele estiliza o que vem antes do li.
 Podendo colocar uma imagem de background e modificar seu tamanho. */
 /* Before estiliza o que vem antes de um elemento, podendo colocar outros atributos também como nesse caso. */
+/* também tem o after que seria depois do elemento */
 li::before {
   content: "";
   display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
   background-image: url("./google.jpg");
   background-repeat: no-repeat;
   background-position: center;

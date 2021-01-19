@@ -1,0 +1,105 @@
+/* * - Seleciona e estiliza todos os elementos do html */
+/* * {
+  margin: 0;
+} */
+
+/* , - colocando vírgula para separar deixa você estilizar 2 ou mais elementos mesmo sendo 1 id e outro class com o mesmo estilo  */
+/* #h2,
+.h4 {
+  background-color: red;
+} */
+
+/* com espaço você seleciona em cascata. o segundo item deve ser filho do primeiro e assim em diante.  */
+/* mas se o p estiver dentro de outro elemento como uma section, não vai funcionar pelo fato que o pai do p não é o header e sim o section */
+/* div > p {
+  background-color: cyan;
+} */
+/* pode chamar por class ou por id, o critério ainda é que o segundo item ou próximo seja filho do anterior*/
+/* .header > p {
+  background-color: rgb(40, 124, 124);
+} */
+
+/* e pode ser mais de 3 elementos para selecionar */
+/* sempre melhor quando seleciona por id ou class para n cometer o erro de ter mais de 2 header ou div e acabar selecionando um elemento que n quer. */
+/* body > .header > p {
+  color: antiquewhite;
+} */
+
+/* A unica diferença entre o espaço " " e o ">" é que no espaço n precisa ser necessário ser o pai e sim estar dentro do elemento.*/
+/* então msm se o p estiver dentro de uma section a seleção ainda vai funcionar. */
+/* .header p {
+  background-color: rgb(87, 81, 81);
+  color: antiquewhite;
+} */
+
+/* +  - ele seleciona um elemento próximo ao primeiro elemento escolhido. No caso um p que esteja depois do header. */
+/* Porém se tiver um span e depois um p na frente do header, já não funciona. Tem que ser depois 
+<header > </header>
+<p> </p>  
+Assim, e mesmo se tiver outro p depois desse ele n vai ser selecionado é o primeiro depois e só
+ */
+/* header + p {
+  background-color: aquamarine;
+} */
+
+/* Diferente do +, o ~ seleciona tudo depois do elemento escolhido. Estão se houver 1 ou mais <p> depois do header, eles vão ser selecionados.*/
+/* E mesmo se esse p estiver no final do html solto e for depois do header ele vai ser selecionado */
+/* header ~ p {
+  background: aquamarine;
+} */
+
+/* Atributo como seletor */
+
+/* seleciona todos os elementos com atributo width */
+/* [width] {
+  background-color: aquamarine;
+} */
+
+/* seleciona elemento com atributo mas com largura específica */
+/* [width="500px"] {
+  background-color: aquamarine;
+} */
+/* 
+[width="300"] {
+  background-color: aquamarine;
+} */
+
+/* seleciona todos os que tiverem palava titulo no atributo title. Mesmo um sendo titulo 1 e o outro titulo 2 */
+/* [title~="titulo"] {
+  background-color: aquamarine;
+} */
+
+/* ^ - seleciona todos que começarem com a letra t no atributo title ou o que seja exigido. Como title 1, title 2 e texto 2.*/
+/* [title^="t"] {
+  background-color: aquamarine;
+} */
+
+/* $ - seleciona os que terminarem com o que seja exigido. No caso 2 do texto 2 e title 2  */
+/* [title$="2"] {
+  background-color: aquamarine;
+} */
+
+/* * como antes seleciona tudo que tiver as silaba tu. Como titulo 1 e titulo 2 */
+[title*="tu"] {
+  background-color: aquamarine;
+}
+
+/* https://tableless.com.br/referencia-seletores-css/ - Link com todos os seletores*/
+/* 
+Seletor	                Exemplo	Descrição
+.class	                .intro	Seleciona todos os elementos com class="intro"
+#id	                    #firstname	    Seleciona o elemento com id="firstname"
+*                       *	Seleciona todos os elementos
+elemento	            p	Seleciona todos <p>
+elemento, elemento	    div, p	Seleciona todos <div> e todos elementos <p>
+elemento elemento	    div p	Seleciona todos elementos <p> dentro de elementos <div>
+elemento > elemento	    div > p	Seleciona todos <p> onde o pai é um elemento <div>
+elemento+elemento	    div + p	Seleciona todos <p> que estão imediatamente depois de um elemento <div>
+elemento1 ~ elemento2	p ~ ul	Seleciona todo elemento <ul> que precede um elemento <p>
+[attribute]	            [target]	Seleciona todos os elementos com um atributo target
+[attribute=value]       [target=_blank]	Seleciona todos os elementos com target="_blank"
+[attribute~=value]	    [title~=flower]	Seleciona todos os elementos com um atributo title contendo a palavra "flower"
+[attribute|=value]	    [lang|=pt-br]	Seleciona todos os elementos com um atributo lang, cujo o atributo valor comece com "pt-br"
+[attribute^=value]	    a[href^="https"]	Seleciona todo elemento <a> que tem um atributo href com o valor começando com "https"
+[attribute$=value]	    a[href$=".pdf"]	Seleciona todo elemento <a> que tem um atributo href com o valor termina com ".pdf"
+[attribute*=value]	    a[href*="tableless"]	Seleciona todo elemento <a> que tem um atributo href com o valor contém "tableless" */
