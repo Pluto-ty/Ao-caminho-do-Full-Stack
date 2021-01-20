@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: red;
+}
+
+/* Exemplo Calc deixando um espaço exato para caber o quadrado verde */
+/* .container {
+  width: 100%;
+  background-color: blue;
+}
+
+.container__first {
+  display: inline-block;
+  width: calc(100% - 300px);
+  height: 300px;
+  margin: 0 -4px -4px 0;
+  background-color: yellow;
+}
+
+.container__second {
+  margin: 0 -4px -4px 0;
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background-color: green;
+} */
+
+/*  Usando calc para deixar do mesmo tamanho o elemento azul mesmo redimensionando a tela */
+
+.container__first {
+  margin: auto;
+  width: calc(100% - 300px);
+  height: 200px;
+  background-color: teal;
+}
