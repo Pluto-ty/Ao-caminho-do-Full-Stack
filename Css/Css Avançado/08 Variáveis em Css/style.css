@@ -1,0 +1,31 @@
+/* Um modo de gravar alguns estilos bastante usados
+ em vários elementos para n ter que ficar buscando 
+ o valor exato */
+
+:root {
+  --var-color: gray;
+
+  --font-size: 30px;
+
+  --square-size: 200px;
+}
+
+.p1 {
+  color: var(--var-color);
+  font-size: var(--font-size);
+}
+.p2 {
+  color: gray;
+  font-size: 30px;
+}
+
+.sqr1 {
+  width: var(--square-size);
+  height: var(--square-size);
+  background: #000;
+}
+.sqr2 {
+  width: 200px;
+  height: 200px;
+  background: rgb(41, 113, 122);
+}
