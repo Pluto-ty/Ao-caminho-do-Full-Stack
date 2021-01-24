@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+
+        <datalist>
+
+        - Lista de valores como sugestão a uma tag <input>
+        - Valores sugestivos e não obrigatórios
+        - Usuário poderão selecionar um dos valores, ou colocar um valor diferente da sugestão.
+
+        <datalist id="fruitsdata">
+            <option>apple</option>
+            <option>banana</option>
+            <option>orange</option>
+            <option>berry</option>
+            <option>cherry</option>
+        </datalist>
+
+        #list
+
+        - Recebe como valor o id de uma <datalist> residente no mesmo.
+        
+        # Tipos de input suportados
+
+        - text, search, url, tel, email, date, month, week, time,
+        datetime-local, number, range e color.
+
+        * Valores de datalist que não são compatíveis com o time do <input>
+        não serão apresentados.
+        
+
+        # Tipos de input não suportados  ( conforme especificação)
+
+        - hidden, password, checkbox, radio, file, ou qualquer tipo de button
+     -->
+
+    <input type="text" list="fruitsdata" placeholder="Escolha uma Fruta" />
+    <datalist id="fruitsdata">
+      <option>#ff0000</option>
+      <option>#00ff00</option>
+      <option>orange</option>
+      <option>berry</option>
+      <option>cherry</option>
+    </datalist>
+
+    <datalist id="colordata">
+      <option>#ff0000</option>
+      <option>#00ff00</option>
+    </datalist>
+    <!-- só aparece as opções de cores e quando não haver nenhuma o input mostra alguns opções padrões  -->
+    <input type="color" list="colordata" />
+  </body>
+</html>

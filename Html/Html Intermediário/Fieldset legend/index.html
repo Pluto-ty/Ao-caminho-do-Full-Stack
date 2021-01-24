@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <fieldset> 
+        - agrupamento de campos
+        - mesmo propósito
+        - semântico
+        - acessibilidade
+    
+        Atributos especiais
+        - disable
+            - desabilita todos os elementos internos
+            - não serão enviados ao submeter o formulário
+        - form
+            - o id de um formulário ao qual esse fieldset pertence
+            - não precisa estar dentro do formulário
+        - name
+            - nome do grupo
+
+        <legend>
+            - nome do agrupamento
+            - primeiro elemento dentro do fieldset
+        
+        -->
+    <!-- Forma 1 -->
+    <form action="">
+      <fieldset>
+        <legend>Contato</legend>
+
+        <label for=""> Nome: <input type="text" /> </label>
+      </fieldset>
+    </form>
+
+    <!-- Forma 2 -->
+    <form id="contato" action="">
+      <button>Enviar</button>
+    </form>
+    <fieldset form="contato">
+      <legend>Contato</legend>
+
+      <label for="">
+        Nome:
+        <input type="text" />
+      </label>
+    </fieldset>
+  </body>
+</html>
