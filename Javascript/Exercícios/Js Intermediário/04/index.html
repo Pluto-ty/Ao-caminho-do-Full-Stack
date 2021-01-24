@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Despesas -->
+      <h2>Digite suas despesas aqui:</h2>
+      <label for=""> Receitas: </label>
+      <input id="dateRecipe" type="number" placeholder="Receitas" />
+
+      <label for="">Despesas</label>
+      <input id="dateExpenses" type="number" placeholder="Despesas" />
+      <button onclick="enviar()">Enviar</button>
+
+      <!-- Resultado -->
+      <h3>Calcular o resultado final</h3>
+      <button onclick="result()">Resultado</button>
+      <button onclick="clearList()">Limpar Lista</button>
+
+      <p id="paragráfo"></p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
