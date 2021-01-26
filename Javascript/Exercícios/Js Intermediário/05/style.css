@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: teal;
+  border-radius: 10%;
+}
+
+input {
+  margin-top: 20px;
+}
