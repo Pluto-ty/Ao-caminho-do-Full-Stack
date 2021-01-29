@@ -125,7 +125,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ---
 
-## Autor
+<h2 id="-autor" Autor </h2>
 
 <a href="https://github.com/Pluto-ty">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51569984" width="100px;" alt=""/>
