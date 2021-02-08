@@ -42,23 +42,23 @@
 
 ---
 
-<h2> 💻  Sobre o repositório </h2>
+<h2 align="center"> 💻  Sobre o repositório </h2>
 
-Esse repositório é totalmente focado na minha caminhada de aprendizado para ser um desenvolvedor full stack focado no front-end.
+Esse repositório é totalmente focado na minha caminhada de aprendizado para ser um desenvolvedor full stack focado no front-end. Desde o básico do HTML, CSS E JavaScript até as partes avançadas utilizando Node.js, MongoDB, React entre outros. Abaixo você vai ver alguns dos meus projetos feitos durante o curso e os com mais funcionalidades e trabalhados vão ter repositórios próprios com suas páginas para teste na sua máquina.
 
 <h4 align="center">🚧 Aviso 🚧</h4>
 
-<p>
+<p align="center">
 Códigos comentados para minha própria revisada se precisar, se houver algo que acha que pode ser melhorado, não tenha medo de me comunicar isso me ajuda no meu crescimento profissional.
 </p>
 
 ---
 
-<h2> 🚀 Como executar o projeto </h2>
+<h2 align="center"> 🚀 Como executar o projeto </h2>
 
 Este projeto por enquanto só tem Front-end.
 
-### Pré-requisitos
+<h3 align="center"> Pré-requisitos </h3>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com) e um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
@@ -69,34 +69,34 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ---
 
-<h2> Projetos </h2>
+<h2 align="center"> Projetos </h2>
 
-<h3> -Pagina de Captura
+<h3 align="center"> -Pagina de Captura
 
-<h4> Mobile </h4>
+<h4 align="center"> Mobile </h4>
 
   <p align="center";>
    <img alt="Header/Main" title="Header/Main" src="./readme-images/página-captura/home-mobile.png" width="200px">
 	<img alt="Footer" title="Footer" src="./readme-images/página-captura/footer-mobile.png" width="200px">
   </p> 
 		
-<h4> Web </h4>
+<h4 align="center"> Web </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/página-captura/web.png" width="600px">
 </p>
 
 
-<h3> -Loja de Açaí Fictícia 
+<h3 align="center"> -Loja de Açaí Fictícia 
 
-<h4> Mobile </h4>
+<h4 align="center"> Mobile </h4>
 
   <p align="center";>
    <img alt="Header/Main" title="Header/Main" src="./readme-images/desafio-03/index-mobile.png" width="200px">
    <img alt="Footer" title="Footer" src="./readme-images/desafio-03/products-mobile.png" width="200px">
   </p> 
 		
-<h4> Web </h4>
+<h4 align="center"> Web </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/desafio-03/index.png" width="600px">
@@ -104,19 +104,19 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
   <img alt="NextLevelWeek" title="#NextLevelWeek" src="./readme-images/desafio-03/products.png" width="600px">
 </p>
 
-<h3> To-do list </h3>
+<h3 align="center"> To-do list </h3>
 <p align="center";>
 <img alt="to-do-list" title="to-do-list-home" src="./readme-images/exercicio-js/to-do-list_desktop.png" width="600px">
 </p>
 
-<h3> Churrascômetro </h3>
+<h3 align="center"> Churrascômetro </h3>
 <p align="center";>
 <img alt="churrascometro" title="churrascometro" src="./readme-images/exercicio-js/churrascometro.png" width="600px">
 </p>
 
 ---
 
-## 💪 Como contribuir no projeto
+<h2 align="center"> 💪 Como contribuir no projeto </h2>
 
 1. Faça um **fork** do projeto.
 2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
@@ -125,7 +125,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 ---
 
-<h2 id="-autor" Autor </h2>
+<h2 id="-autor"> Autor </h2>
 
 <a href="https://github.com/Pluto-ty">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51569984" width="100px;" alt=""/>
