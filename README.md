@@ -1,6 +1,6 @@
 <h1 align="center">
       <a href="https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack" alt="Ao caminho do Full Stack"> Ao caminho do Full Stack </a>
-</h1
+</h1>
 
 <h3 align="center">
     Reposítorio pessoal com conteúdo do que aprendi no curso Desenvolvimento Web Full stack do programador br.
@@ -62,7 +62,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 <h3 align="center"> Pré-requisitos </h3>
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com) e um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+[Git](https://git-scm.com) e um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 
 1. Faça clone do projeto- https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
