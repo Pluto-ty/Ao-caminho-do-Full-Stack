@@ -2,7 +2,7 @@
       <a href="https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack" alt="Ao caminho do Full Stack"> Ao caminho do Full Stack </a>
 </h1
 
-<h3  align="center">
+<h3 align="center">
     Reposítorio pessoal com conteúdo do que aprendi no curso Desenvolvimento Web Full stack do programador br.
 </h3>
 
@@ -44,8 +44,9 @@
 
 <h2 align="center"> 💻  Sobre o repositório </h2>
 
+<p align="center">
 Esse repositório é totalmente focado na minha caminhada de aprendizado para ser um desenvolvedor full stack focado no front-end. Desde o básico do HTML, CSS E JavaScript até as partes avançadas utilizando Node.js, MongoDB, React entre outros. Abaixo você vai ver alguns dos meus projetos feitos durante o curso e os com mais funcionalidades e trabalhados vão ter repositórios próprios com suas páginas para teste na sua máquina.
-
+</p>
 <h4 align="center">🚧 Aviso 🚧</h4>
 
 <p align="center">
