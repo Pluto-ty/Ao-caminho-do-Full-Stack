@@ -65,14 +65,17 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com) e um bom editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/).
 
 
-1. Faça clone do projeto- https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
+1. Faça clone do projeto:
+``bash
+$ git clone https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
+``
 2. Abra com o editor de escolha e modifique,brinque a vontade.
 
 ---
 
 <h2 align="center"> Projetos </h2>
 
-<h3 align="center"> -Pagina de Captura
+<h3 align="center"> Pagina de Captura
 
 <h4 align="center"> Mobile </h4>
 
@@ -88,7 +91,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 </p>
 
 
-<h3 align="center"> -Loja de Açaí Fictícia 
+<h3 align="center"> Loja de Açaí Fictícia 
 
 <h4 align="center"> Mobile </h4>
 
