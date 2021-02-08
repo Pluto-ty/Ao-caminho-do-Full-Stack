@@ -66,10 +66,10 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 
 1. Faça clone do projeto:
-</br>
-``bash
+
+```bash
 $ git clone https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
-``
+```
 2. Abra com o editor de escolha e modifique,brinque a vontade.
 
 ---
