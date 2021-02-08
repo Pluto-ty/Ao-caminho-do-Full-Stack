@@ -2,7 +2,7 @@
       <a href="https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack" alt="Ao caminho do Full Stack"> Ao caminho do Full Stack </a>
 </h1
 
-<h3 align="center">
+<h3 text-align="center">
     Reposítorio pessoal com conteúdo do que aprendi no curso Desenvolvimento Web Full stack do programador br.
 </h3>
 
@@ -56,7 +56,7 @@ Códigos comentados para minha própria revisada se precisar, se houver algo que
 
 <h2 align="center"> 🚀 Como executar o projeto </h2>
 
-Este projeto por enquanto só tem Front-end.
+<p text-align="center"> Este projeto por enquanto só tem Front-end. </p>
 
 <h3 align="center"> Pré-requisitos </h3>
 
