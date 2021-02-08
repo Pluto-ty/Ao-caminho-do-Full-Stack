@@ -66,6 +66,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 
 
 1. Faça clone do projeto:
+</br>
 ``bash
 $ git clone https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
 ``
