@@ -1,0 +1,37 @@
+.container {
+   background-color: #333;
+   color: rgb(0, 0, 0);
+   height: 400px;
+
+   display: grid;
+   grid-template: auto auto / auto auto auto;
+
+   justify-content: center;
+   align-content: center;
+   gap: 10px;
+
+   /* 
+    Ao contrário do anterior o align content vai se basear nos espaços da grid em relação ao container.
+    o Container do grid vai ter o tamanho exato do conteúdo do grid quando usado o align e justify-content ao contrário do items que o container continua do mesmo tamanho e os itens que se movem dentro do container.
+    
+    Os dois vão alinhar com os mesmos comandos. flex-star, flex-end e etc. 
+   justify-content alinha na horizontal.
+   align-content alinha na vertical.
+    */
+}
+
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   width: 100px;
+   height: 100px;
+}

@@ -1,0 +1,31 @@
+.container {
+   background-color: #333;
+   height: 400px;
+   color: white;
+
+   display: flex;
+   flex-grow: 1;
+   flex-shrink: 1;
+}
+/* 
+   Shrink: 0 ou 1. 0 diz que o elemento não pode encolher, que faz ele acabar saindo do container envolvido se não houver espaço.
+   1 o valor padrão faz com que os elementos possam encolher para caber dentro do container
+   
+   Grow: faz com que os elementos possam crescer mais do que ele realmente são quando há espaço vazio no container.
+   Quando maior o número, maior o elemento vai crescer comparado a outros elementos dentro do container como 1x o tamanho,2x,3x. O padrão é 0.
+   */
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   width: 100px;
+   height: 100px;
+}

@@ -1,31 +1,31 @@
 .container {
-  background-color: #333;
-  height: 300pc;
-  color: white;
+   background-color: #333;
+   height: 300px;
+   color: white;
 
-  /* display flex modifica os filhos do elemento que tiver display flex para preencherem o espaço disponível do pai */
-  display: flex;
-  /* flex-direction:
+   /* display flex modifica os filhos do elemento que tiver display flex para preencherem o espaço disponível do pai */
+   display: flex;
+   /* flex-direction:
     row- valor padrão, modifica os elementos para ficarem em linha verticalmente
     colum - fica parecido com o padrão, os elementos ficam em colunas horizontalmente
     Existe também o row-reverse e colum reverse que deixa os elementos alinhados mas do lado oposto.
     Se no row os elementos ficavam alinhados na esquerda, no reverse eles são parar na direita e como o primeiro elemento sendo o primeiro da direita. 
     no colum-reverse é parecido mas começam em baixo.*/
-  flex-direction: row;
+   flex-direction: row;
 }
 
 .r1 {
-  background-color: violet;
+   background-color: violet;
 }
 
 .r2 {
-  background-color: wheat;
+   background-color: wheat;
 }
 .r3 {
-  background-color: turquoise;
+   background-color: turquoise;
 }
 
 .react {
-  width: 100px;
-  height: 100px;
+   width: 100px;
+   height: 100px;
 }

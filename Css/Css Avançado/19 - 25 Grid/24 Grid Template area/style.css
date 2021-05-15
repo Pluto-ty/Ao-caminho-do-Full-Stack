@@ -1,0 +1,54 @@
+.container {
+   background-color: #333;
+   color: rgb(0, 0, 0);
+   height: 400px;
+   padding: 10px;
+
+   display: grid;
+
+   gap: 10px;
+
+   grid-template-areas:
+      "a2 a2 a2 a2"
+      "a1 a1 a3 a3"
+      "a4 a4 a4 a5"
+      "a6 a6 a6 a6";
+
+   /* 
+    */
+}
+
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   /* width: 100px;
+   height: 100px; */
+}
+
+.item1 {
+   grid-area: a1;
+}
+.item2 {
+   grid-area: a2;
+}
+.item3 {
+   grid-area: a3;
+}
+.item4 {
+   grid-area: a4;
+}
+.item5 {
+   grid-area: a5;
+}
+.item6 {
+   grid-area: a6;
+}

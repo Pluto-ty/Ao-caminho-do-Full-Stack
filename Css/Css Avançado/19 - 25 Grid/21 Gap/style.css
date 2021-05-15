@@ -1,0 +1,35 @@
+.container {
+   background-color: #333;
+   color: rgb(0, 0, 0);
+   /* height: 400px; */
+   padding: 10px;
+
+   display: grid;
+
+   grid-template: 100px 100px / auto auto auto;
+
+   /* column-gap: 30px;
+   row-gap: 10px; */
+   grid-gap: 10px 30px;
+
+   /* Grid gap é para colocar um espaço entre as colunas e linhas se preciso. 
+      Sendo o primeiro valor das rows/linhas e o segundo das columns/colunas.
+      Se quiser apenas colocar em algum dos dois também há os comandos
+       separados sendo: row-gap e column-gap*/
+}
+
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   /* width: 100px; */
+   height: 100px;
+}

@@ -1,0 +1,30 @@
+.container {
+   background-color: #333;
+   height: 400px;
+   color: white;
+
+   display: flex;
+}
+/*
+ Align-self é para elementos sozinho ao contrário de align-items e content que se usaria para vários elementos num container.
+ Tendo os mesmos comandos porém para um único elemento
+*/
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+
+   align-self: flex-end;
+}
+.r3 {
+   background-color: turquoise;
+
+   align-self: center;
+}
+
+.react {
+   width: 100px;
+   height: 100px;
+}

@@ -1,0 +1,36 @@
+.container {
+   background-color: #333;
+   color: rgb(0, 0, 0);
+   /* height: 400px; */
+   padding: 10px;
+
+   display: grid;
+   grid-template-rows: auto auto;
+   grid-template-columns: 1fr 3fr 1fr;
+   /* grid-template: 100px 100px / 1fr 1fr 1fr; */
+
+   /* A grid quantidade rows e columns é ilimitada, apenas precisa coloca um valor para ser considerado uma linha ou uma coluna.
+       pode ser usado desde pixels a % para definir um tamanho ou "auto" para preencher automaticamente o espaço disponível.
+
+    Grid-template-rows: comando para criar as linhas que vão haver no grid.
+    grid-template-colums: tendo os mesmo valores porém tem um específico sendo o fr("fração do espaço") parecido com o grow do display flex,
+    se todos tiverem 1fr e um elemento tiver 3fr o com 3 será 3 vezes o tamanho dos outros.
+
+    grid-template: basicamente é a junção do template-rows e template-columns. Se divide os valores por uma "/" e sempre o valor de rows vem primeiro.
+    */
+}
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   /* width: 100px; */
+   height: 100px;
+}

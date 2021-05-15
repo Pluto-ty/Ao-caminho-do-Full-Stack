@@ -1,0 +1,25 @@
+.container {
+   background-color: #333;
+   height: 400px;
+   color: white;
+
+   display: flex;
+   flex-flow: column wrap;
+   /* A propriedade CSS flex-flow é uma junção das propriedades flex-direction e flex-wrap. */
+}
+
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   width: 100px;
+   height: 100px;
+}

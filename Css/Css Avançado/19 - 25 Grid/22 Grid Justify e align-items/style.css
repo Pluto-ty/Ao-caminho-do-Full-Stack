@@ -1,0 +1,33 @@
+.container {
+   background-color: #333;
+   color: rgb(0, 0, 0);
+   /* height: 400px; */
+
+   display: grid;
+   grid-template: auto auto / auto auto auto;
+
+   justify-items: center;
+   align-items: center;
+
+   /* 
+   Basicamente parecido com flex-box, sempre vai ser o elemento em relação ai espaço da grid.
+   justify-items alinha na horizontal.
+   align-items alinha na vertical.
+    */
+}
+
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   width: 100px;
+   height: 100px;
+}

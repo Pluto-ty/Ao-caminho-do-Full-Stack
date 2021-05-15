@@ -1,0 +1,49 @@
+.container {
+   background-color: #333;
+   height: 400px;
+   color: white;
+
+   display: flex;
+   justify-content: flex-end;
+}
+
+/*
+Mais sobre flex-box: https://origamid.com/projetos/flexbox-guia-completo/
+
+justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left.
+
+Justify content: Com flex-direction row organiza/alinha os elementos na horizontal, em column organiza pela vertical.
+
+flex-start: valor padrão e deixa no local que deveria estar por padrão.
+flex-end: itens são colocados no final da linha ou oposto do lado inicial.
+center: alinha no meio
+space-between: separa igualmente os elementos.
+space-around: deixa um espaço igual entre os elementos não contando as bordas do container.
+space-evenly: parecido com o around ele deixa um espaço entre os elementos mas conta com as bordas do container para o tamanho desse espaço.
+
+
+align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end
+
+align-itens: parecido com justify-content porém organiza em vertical no modo row e horizontal no column.
+
+strech: valor padrão do align-items ele é parecido com flex-star porém se por exemplo height não for especificado e estiver em row o elemento vai ficar estendido até o final do container.
+
+flex-start: o elemento que não tiver height especificado como exemplo acima terá o height preso ao tanto que o conteúdo do elemento cobrir.
+
+
+*/
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   width: 100px;
+   height: 100px;
+}

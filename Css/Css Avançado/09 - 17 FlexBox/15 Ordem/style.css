@@ -1,0 +1,31 @@
+.container {
+   background-color: #333;
+   height: 400px;
+   color: white;
+
+   display: flex;
+   align-content: center;
+}
+/*
+ Ordem simplesmente pode modificar a ordem que os elementos são mostrados em tela.
+ O valor padrão é 0 e o menor número será o em primeiro lugar e o maior o último.
+  (Obs:  que se pode utilizar números negativos para deixar elementos em primeiro.)
+*/
+.r1 {
+   order: -1;
+   background-color: violet;
+}
+
+.r2 {
+   order: 3;
+   background-color: wheat;
+}
+.r3 {
+   order: 2;
+   background-color: turquoise;
+}
+
+.react {
+   width: 100px;
+   height: 100px;
+}

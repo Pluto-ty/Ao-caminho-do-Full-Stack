@@ -1,0 +1,27 @@
+.container {
+   background-color: #333;
+   height: 400px;
+   color: white;
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap-reverse;
+   /* o flex-wrap: wrap vai tentar proteger o tamanho dos elementos envolvidos. Fazendo eles quebrarem para outra linha para manter o tamanho deles. É padrão é estar nowrap que no caso não ira quebrar e ficará redimensionado/mudando o tamanho concebido ao elemento para continuar no local colocado.
+   wrap-reverse: basicamente é o wrap porém invertido, o elemento será colocado no lado oposto que estáva por padrão. Se ele estava grudado no topo do container agora vai estar na parte de baixo, e o elemento vai quebrar para cima em vez de pra baixo */
+}
+
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+.react {
+   width: 100px;
+   height: 100px;
+}
