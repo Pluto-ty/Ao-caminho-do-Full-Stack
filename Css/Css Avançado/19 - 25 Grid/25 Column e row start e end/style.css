@@ -1,0 +1,68 @@
+.container {
+   background-color: #333;
+   color: rgb(0, 0, 0);
+   height: 400px;
+   padding: 10px;
+
+   display: grid;
+
+   gap: 10px;
+
+   /* grid-template-areas:
+      "a2 a2 a2 a2"
+      "a1 a1 a3 a3"
+      "a4 a4 a4 a5"
+      "a6 a6 a6 a6"; */
+}
+
+.r1 {
+   background-color: violet;
+}
+
+.r2 {
+   background-color: wheat;
+}
+.r3 {
+   background-color: turquoise;
+}
+
+/* 
+   Outro modo de organizar elementos com grid parecido com grid area.
+   Desse modo nós temos mais controle dentro do elemento comparado ao grid area que tinhamos mais controle dentro do container.
+
+   Grid-row-start: escolhemos em qual linha o elemento vai começar.
+   Grid-row-end: em qual linha vai terminar.
+   Grid-colum-start: em qual coluna vai começar.
+   Grid-column-end: em qual coluna vai terminar.
+
+   Podemos também usar o "span" que como exemplo do item 6 que como teria que preencher toda a linha 4. Em vez de colocar start na coluna 1 e end na coluna 4 usamos o span para falar quantas colunas ele vai esticar que no caso são 4. O tanto de números junto com span é quantas linhas ou colunas que vai esticar. Se estiver na coluna 2 e colocar span 2 ele vai esticar duas colunas e parar na coluna 4.
+   
+    */
+
+.item1 {
+   grid-row-start: 2;
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+.item2 {
+   grid-column-start: 1;
+   grid-column-end: 5;
+}
+.item3 {
+   grid-row-start: 2;
+   grid-column-start: 3;
+   grid-column-end: 5;
+}
+.item4 {
+   grid-row-start: 3;
+   grid-column-start: 1;
+   grid-column-end: 4;
+}
+.item5 {
+   grid-row-start: 3;
+   grid-column-end: 5;
+}
+.item6 {
+   grid-row-start: 4;
+   grid-column-end: span 4;
+}

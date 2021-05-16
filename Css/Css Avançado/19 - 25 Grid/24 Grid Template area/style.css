@@ -15,6 +15,12 @@
       "a6 a6 a6 a6";
 
    /* 
+   Grid area especifica o tamanho e localização de um item do grid dentro de uma grade, contribuindo com uma linha, uma extensão ou nada (automático) para sua colocação de grade, especificando assim as bordas de sua área de grade 
+   No grid area você nomeia cada elemento que vai fazer parte do grid área dentro dos seus respectivos seletores
+   dentro do container dos elementos você define onde cada elemento vai ficar e quanto ele vai ocupar dentro dessa área
+   como no exemplo acima. O a1 tem 2/4 da segunda linha e o a5 tem 1/4 da terceira linha. 
+   Isso deixa bem simples de organizar uma área de fotos ou elementos.
+   
     */
 }
 
@@ -27,11 +33,6 @@
 }
 .r3 {
    background-color: turquoise;
-}
-
-.react {
-   /* width: 100px;
-   height: 100px; */
 }
 
 .item1 {
