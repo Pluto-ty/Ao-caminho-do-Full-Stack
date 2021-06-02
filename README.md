@@ -1,5 +1,5 @@
 <h1 align="center">
-      <a href="https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack" alt="Ao caminho do Full Stack"> Ao caminho do Full Stack </a>
+      <a href="https://github.com/thyagoaraujom/Ao-caminho-do-Full-Stack" alt="Ao caminho do Full Stack"> Ao caminho do Full Stack </a>
 </h1>
 
 <h3 align="center">
@@ -7,20 +7,20 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Pluto-ty/Ao-caminho-do-Full-Stack?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/thyagoaraujom/Ao-caminho-do-Full-Stack?style=flat-square">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Pluto-ty/Ao-caminho-do-Full-Stack">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/thyagoaraujom/Ao-caminho-do-Full-Stack">
   
-  <a href="https://github.com/Pluto-ty/README/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Pluto-ty/Ao-caminho-do-Full-Stack">
+  <a href="https://github.com/thyagoaraujom/README/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thyagoaraujom/Ao-caminho-do-Full-Stack">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Pluto-ty/Ao-caminho-do-Full-Stack?style=social">
+   <a href="https://github.com/thyagoaraujom/Ao-caminho-do-Full-Stack/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/thyagoaraujom/Ao-caminho-do-Full-Stack?style=social">
   </a>
  
-  <a href="https://github.com/Pluto-ty">
+  <a href="https://github.com/thyagoaraujom">
     <img alt="Stargazers" src="https://img.shields.io/badge/Feito por- Thyago Araujo-%237159c1?style=flat&logo=ghost">
     </a> 
 </p>
@@ -60,7 +60,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 1. Faça clone do projeto:
 
 ```bash
-$ git clone https://github.com/Pluto-ty/Ao-caminho-do-Full-Stack.git
+$ git clone https://github.com/thyagoaraujom/Ao-caminho-do-Full-Stack.git
 ```
 
 2. Abra com o editor de escolha.
@@ -107,7 +107,7 @@ Todos os tipos de contribuições são muito bem-vindos e apreciados!
 
 <h2 id="-autor">Autor</h2>
 
-<a href="https://github.com/Pluto-ty">
+<a href="https://github.com/thyagoaraujom">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51569984" width="100px;" alt=""/>
 </br>
 <p> Thyago Araujo <p>
