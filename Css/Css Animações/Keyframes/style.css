@@ -1,0 +1,83 @@
+.c-box {
+   width: 100px;
+   height: 100px;
+   border-style: solid;
+   /* Nome da animação para criada no keyframe */
+   animation-name: move;
+   /* Tempo da animação */
+   animation-duration: 3s;
+   /* atraso da animação ou adiantar a animação com número negátivo fazendo que quando iniciado a animação ela já tenha passado o tempo estabelecido.*/
+   animation-delay: 1s;
+   /* Quantidade de repetições que animação pode ter. Podendo ser infinita  */
+   animation-iteration-count: infinite;
+   /* Direção que a animação vai ir. Tendo normal, reverso(começando do fim da animação), alternado(alternando entre os lados) e alternado-reverso (que começa no fim da animação e vai alternando)*/
+   animation-direction: alternate;
+   /* Tendo backwards que seria que o elemento já começa na posição inicial da animação mesmo tendo delay. 
+   forwards que quando a animação acabar o elemento fica do jeito que a animação acaba.
+   Both: Sendo os dois, ja fica na posição e jeito inicial da animação e ao terminar fica do jeito e posição onde a animação termina*/
+   animation-fill-mode: both;
+   /* Para a movimentação do elemento ele precisa estar em position relative pelo menos */
+   position: relative;
+   /* O short-hand para animações, em um único elemento terá toda a configuração da animação */
+   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes move {
+   0% {
+      left: 0px;
+      background: red;
+   }
+   50% {
+      background: blue;
+      width: 400px;
+   }
+   100% {
+      left: 300px;
+      background: green;
+      width: 200px;
+   }
+}
+
+/* 
+linear - A animação tem a mesma velocidade do início ao fim.
+facilidade - valor padrão. A animação tem um início lento, depois rápido, antes de terminar lentamente.
+easy-in - A animação tem um início lento.
+atenuação - A animação tem um final lento.
+Easy-in-out - A animação tem um início lento e um final lento.  */
+
+.linear {
+   animation-timing-function: linear;
+}
+
+.ease {
+   animation-timing-function: ease;
+}
+
+.ease-in {
+   animation-timing-function: ease-in;
+}
+
+.ease-out {
+   animation-timing-function: ease-out;
+}
+
+.ease-in-out {
+   animation-timing-function: ease-in-out;
+}
+
+/* 
+@keyframes changeColor {
+   0% {
+      background: red;
+   }
+
+   50% {
+      background: blue;
+      width: 400px;
+   }
+
+   100% {
+      background: green;
+      width: 200px;
+   }
+} */

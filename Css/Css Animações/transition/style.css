@@ -1,0 +1,24 @@
+.c-btn {
+   display: inline-block;
+   padding: 20px;
+   background: #428bca;
+   color: #fff;
+   font-size: 30px;
+
+   /* Funções com as mesmas funcionalidades das de animações. */
+   /* Escolhe quais propriedades vão ter transição. */
+   transition-property: background-color, padding;
+   /* duração da transição */
+   transition-duration: 500ms;
+   /* tempo de delay para a transição */
+   transition-delay: 100ms;
+   /* formas da transição funcionar. Igual ao do animation */
+   transition-timing-function: ease;
+   /* para colocar todas as funcionalidades em uma única linha */
+   transition: background-color 500ms 1s ease-out, padding 3s;
+}
+
+.c-btn:hover {
+   background-color: #224bca;
+   padding: 25px;
+}
