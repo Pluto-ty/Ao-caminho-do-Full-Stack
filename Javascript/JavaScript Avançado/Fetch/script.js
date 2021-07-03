@@ -1,5 +1,6 @@
-let url = "https://api.exchangeratesapi.io/latest?base=USD&symbols=BRL";
+let url = "https://api.github.com/users/xiaotian/repos";
 
+// Aqui Basicamente aprendemos que com o fetch podemos pegar um valor na internet/API, e utilizar esse valor para a nossa aplicação.
 fetch(url)
    .then((res) => {
       return res.json();

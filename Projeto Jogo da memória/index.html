@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Righteous&display=swap"
+         rel="stylesheet"
+      />
+      <link rel="stylesheet" href="./style.css" />
+      <title>Document</title>
+   </head>
+   <body>
+      <div class="c-gameBoard">
+         <div class="c-card">
+            <div class="c-card_front">
+               <img src="./assets/bootstrap.png" alt="Icon Front" />
+            </div>
+            <div class="c-card_back">&lt/&gt</div>
+         </div>
+      </div>
+      <div class="c-gameOver">
+         <div>Parabéns, você completou o jogo!</div>
+         <button
+            class="c-button-restart"
+            type="button"
+            id="js-button-restart"
+            onclick="restart()"
+         >
+            Jogue Novamente
+         </button>
+      </div>
+      <script src="./script.js"></script>
+   </body>
+</html>
