@@ -21,7 +21,12 @@ startGame();
 function startGame() {
    cards = createCardsFromTechs(techs);
    shuffleCards(cards);
-   console.log(cards);
+
+   initializeCards(cards);
+}
+
+function initializeCards(cards) {
+   let gameBoard = document.getElementById("js-gameBoard");
 }
 
 function shuffleCards(cards) {
