@@ -9,9 +9,9 @@ function startGame() {
    initializeCards(game.createCardsFromTechs());
 }
 
-function initializeCards(cards) {
+function initializeCards() {
    let gameBoard = document.getElementById("js-gameBoard");
-
+   gameBoard.innerHTML = "";
    game.cards.forEach((card) => {
       let cardElement = document.createElement("div");
       cardElement.id = card.id;
@@ -47,5 +47,32 @@ function createCardFace(face, card, element) {
 // createCardsFromTechs(techs);
 
 function flipCard() {
-   this.classList.add("c-flip");
+   if (game.setCard(this.id)) {
+      this.classList.add("c-flip");
+      if (game.secondCard) {
+         if (game.checkMatch()) {
+            game.clearCards();
+            if (game.checkGameOver()) {
+               let gameoverLayer = document.getElementById("js-gameover");
+               gameoverLayer.style.display = "flex";
+            }
+         } else {
+            setTimeout(() => {
+               let firstCardView = document.getElementById(game.firstCard.id);
+               let secondCardView = document.getElementById(game.secondCard.id);
+
+               firstCardView.classList.remove("c-flip");
+               secondCardView.classList.remove("c-flip");
+               game.unflipCard();
+            }, 1000);
+         }
+      }
+   }
+}
+
+function restart() {
+   game.clearCards();
+   startGame();
+   let gameoverLayer = document.getElementById("js-gameover");
+   gameoverLayer.style.display = "none";
 }
