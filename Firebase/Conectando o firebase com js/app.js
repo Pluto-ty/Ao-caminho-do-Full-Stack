@@ -220,3 +220,217 @@ const TURMA = "turmaA";
 // });
 
 // =========================== Criando Usuários no Firebase ===========================
+// O próprio firebase faz a verificação do email e senha então se digitar algo errado, o firebase diz pelo catch como erro.
+// let newUserEmail = "novoteste@teste.com";
+// let newUserPassord = "123abc";
+
+// let auth = firebase.auth();
+
+// Função do firebase para criar um novo usuário, fazendo a verificação e tudo mais para a criação do email e mandando automaticamente para o servidor.
+// auth
+//    .createUserWithEmailAndPassword(newUserEmail, newUserPassord)
+//    .then((user) => {
+//       console.log(user);
+//    })
+//    .catch((error) => {
+//       console.log(error);
+//    });
+
+// =========================== Logando/Deslogando e observando Usuário no Firebase ===========================
+
+// let auth = firebase.auth();
+
+// function login() {
+//    let UserEmail = "novoteste@teste.com";
+//    let UserPassord = "123abc";
+
+//    // Função para logar com o usuário.
+//    auth
+//       .signInWithEmailAndPassword(UserEmail, UserPassord)
+//       .then(() => {
+//          console.log(auth.currentUser);
+//       })
+//       .catch((error) => {
+//          console.log(error);
+//       });
+// }
+
+// Muito parecido com o onSnapshot, porém ele vigia apenas o estado do usuário.
+// auth.onAuthStateChanged((user) => {
+//    if (user) {
+//       console.log(user);
+//    } else {
+//       console.log("Ninguém logado");
+//    }
+// });
+
+// function logout() {
+//    auth
+//       .signOut()
+//       .then(() => {
+//          console.log("Usuário deslogado");
+//       })
+//       .catch((error) => {
+//          console.log(error);
+//       });
+// }
+
+// setTimeout(logout, 2000);
+// setTimeout(login, 2000);
+
+// =========================== Sessão do usuário ===========================
+
+// let auth = firebase.auth();
+
+// function login() {
+//    let UserEmail = "novoteste@teste.com";
+//    let UserPassord = "123abc";
+
+// Seta a persistência dos dados, escolhendo entre:
+// LOCAL- O login persiste mesmo abrindo outra aba ainda vai estár logado.
+// SESSION - O login some ao abrir o site em outra aba, porém continua na aba atual mesmo atualizando ela.
+// NONE- Quando atualizar a página o login será desfeito. Usado para aplicações com conteúdos que precisam que o usuário não esqueça de sair ou algo do gênero.
+//    auth
+//       .setPersistence(firebase.auth.Auth.Persistence.SESSION)
+//       .then(() => {
+//          auth
+//             .signInWithEmailAndPassword(UserEmail, UserPassord)
+//             .then(() => {
+//                console.log(auth.currentUser);
+//             })
+//             .catch((error) => {
+//                console.log(error);
+//             });
+//       })
+//       .catch((error) => {
+//          console.log(error);
+//       });
+// }
+
+// auth.onAuthStateChanged((user) => {
+//    if (user) {
+//       console.log(user);
+//    } else {
+//       console.log("Ninguém logado");
+//    }
+// });
+
+// function logout() {
+//    auth
+//       .signOut()
+//       .then(() => {
+//          console.log("Usuário deslogado");
+//       })
+//       .catch((error) => {
+//          console.log(error);
+//       });
+// }
+
+// setTimeout(logout, 2000);
+// setTimeout(login, 2000);
+
+// =========================== Permissões e Regras ===========================
+
+// Testando as regras e permissões que podemos colocar no servidor.
+
+// function ler() {
+//    fb.collection("lista")
+//       .get()
+//       .then((snapshot) => {
+//          snapshot.forEach((item) => {
+//             console.log(item.data());
+//          });
+//       })
+//       .catch((error) => {
+//          console.log(error);
+//       });
+// }
+
+// let auth = firebase.auth();
+
+// function login() {
+//    let UserEmail = "novoteste@teste.com";
+//    let UserPassord = "123abc";
+
+//    auth
+//       .setPersistence(firebase.auth.Auth.Persistence.LOCAL)
+//       .then(() => {
+//          auth
+//             .signInWithEmailAndPassword(UserEmail, UserPassord)
+//             .then(() => {
+//                console.log(auth.currentUser);
+//                escrever();
+//             })
+//             .catch((error) => {
+//                console.log(error);
+//             });
+//       })
+//       .catch((error) => {
+//          console.log(error);
+//       });
+// }
+
+// function escrever() {
+//    db.collection("lista")
+//       .add({ title: "Novo Objeto", numero: Math.random() })
+//       .then((res) => {
+//          console.log(res);
+//       })
+//       .catch((err) => {
+//          console.log(err);
+//       });
+// }
+
+// login();
+
+// Algumas regras comuns:
+
+// Somente Usuários autenticados podem ler ou modificar:
+
+// service cloud.firestore {
+//   match /databases/{database}/documents {
+//     match /{document=**} {
+//       allow read, write: if request.auth != null;
+//     }
+//   }
+// }
+
+// ​Somente os donos do conteúdo podem ler ou modificar:
+
+// service cloud.firestore {
+//   match /databases/{database}/documents {
+//     // Allow only authenticated content owners access
+//     match /some_collection/{userId}/{documents=**} {
+//       allow read, write: if request.auth != null && request.auth.uid == userId
+//     }
+//   }
+// }
+
+// Todos podem ler mas apenas os donos do conteúdo podem modificar:
+
+// service cloud.firestore {
+//   match /databases/{database}/documents {
+//     // Allow public read access, but only content owners can write
+//     match /some_collection/{document} {
+//       allow read: if true
+//       allow create: if request.auth.uid == request.resource.data.author_uid;
+//       allow update, delete: if request.auth.uid == resource.data.author_uid;
+//     }
+//   }
+// }
+
+// Permissão baseada no papel do usuário:
+
+// service cloud.firestore {
+//   match /databases/{database}/documents {
+//     // For attribute-based access control, Check a boolean `admin` attribute
+//     allow write: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.admin == true;
+//     allow read: true;
+
+//     // Alterntatively, for role-based access, assign specific roles to users
+//     match /some_collection/{document} {
+//      allow read: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == "Reader"
+//      allow write: if get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == "Writer"
+//    }
+//   }
+// }
